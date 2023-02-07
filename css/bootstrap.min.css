@@ -30,7 +30,7 @@ menu,
 nav,
 section,
 summary {
-    display: block
+    display: none
 }
 
 audio,
@@ -239,7 +239,7 @@ th {
     :before {
         /*color:#000!important;*/
         /*background:0 0!important*/
-        ;
+        
     }
     a,
     a:visited {
@@ -284,7 +284,7 @@ th {
         background: #fff!important
     }
     .navbar {
-        display: none
+        display: block;
     }
     .btn>.caret,
     .dropup>.btn>.caret {

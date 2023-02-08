@@ -19,279 +19,304 @@ entries:
       output: pdf
       type: frontmatter
 
-  - title: Overview
+  - title: 1. Introduction and Overview
     output: web, pdf
     folderitems:
 
-    - title: Get started
+    - title: 1.1 Introduction
       url: /index.html
       output: web, pdf
       type: homepage
 
-    - title: Introduction
-      url: /mydoc_introduction.html
+    - title: 1.2 Purpose
+      url: /mydoc_purpose1.html
       output: web, pdf
 
-    - title: Supported features
-      url: /mydoc_supported_features.html
+    - title: 1.3 Organization
+      url: /mydoc_organization1.html
       output: web, pdf
 
-    - title: About the theme author
-      url: /mydoc_about.html
+    - title: 1.4 Authority
+      url: /mydoc_authority1.html
       output: web, pdf
 
-    - title: Support
-      url: /mydoc_support.html
+    - title: 1.5 Truth in Data Principal
+      url: /mydoc_truth_data_principal.html
       output: web, pdf
 
-  - title: Release Notes
+    - title: 1.6 Precision of Data
+      url: /mydoc_precision_data.html
+      output: web, pdf  
+
+  - title: 2. Traffic Data Sources and Factors
     output: web, pdf
     folderitems:
 
-    - title: 6.0 Release notes
-      url: /mydoc_release_notes_60.html
+    - title: 2.1 Introduction
+      url: /mydoc_introduction2.html
       output: web, pdf
 
-    - title: 5.0 Release notes
-      url: /mydoc_release_notes_50.html
+    - title: 2.2 Purpose
+      url: /mydoc_purpose2.html
       output: web, pdf
 
-  - title: Installation
+    - title: 2.3 Traffic Adjustment Data Sources
+      url: /mydoc_tra_adj_ds.html
+      output: web, pdf
+
+    - title: 2.4 Short-Term Traffic Counts
+      url: /mydoc_short_traffic_cnt.html
+      output: web, pdf
+
+    - title: 2.5 Traffic Adjustment Factors
+      url: /mydoc_traffic_adjustment_fac.html
+      output: web, pdf
+
+    - title: 2.6 AADT, K, D and T
+      url: /mydoc_aadt.html
+      output: web, pdf
+
+    - title: 2.7 Existing Traffic Condition Information
+      url: /mydoc_existing_traffic_con.html
+      output: web, pdf
+
+    - title: 2.8 Level of Service(LOS) Analysis
+      url: /mydoc_los_analysis.html
+      output: web, pdf
+
+    - title: 2.9 Number of Lanes Required
+      url: /mydoc_num_lanes.html
+      output: web, pdf
+
+    - title: 2.10 Estimation of AADT From Short-Term Traffic Counts
+      url: /mydoc_num_lanes.html
+      output: web, pdf
+
+
+  - title: 3. Scoping for Project Traffic Foresting
     output: web, pdf
     folderitems:
 
-    - title: About Ruby, Gems, Bundler, etc.
-      url: /mydoc_about_ruby_gems_etc.html
+    - title: 3.1 Introduction
+      url: /mydoc_introduction3.html
       output: web, pdf
 
-    - title: Install Jekyll on Mac
-      url: /mydoc_install_jekyll_on_mac.html
+    - title: 3.2 Factors to be Considered
+      url: /mydoc_factors_considered.html
       output: web, pdf
 
-    - title: Install Jekyll on Windows
-      url: /mydoc_install_jekyll_on_windows.html
+    - title: 3.3 Determine Applicable Forecasting Methods
+      url: /mydoc_forecasting_methods.html
       output: web, pdf
 
-  - title: Authoring
+    - title: 3.4 Identify Available and Needed Data Sources
+      url: /mydoc_available_needed_ds.html
+      output: web, pdf
+
+    - title: 3.5 Schedule Guidelines
+      url: /mydoc_schedule_guidelines.html
+      output: web, pdf
+
+    - title: 3.6 Document Requirements and Deliverables
+      url: /mydoc_doc_req_deli.html
+      output: web, pdf
+
+  - title: 4. Forecasting with Travel Demand Models
     output: web, pdf
 
     folderitems:
-    - title: Pages
-      url: /mydoc_pages.html
+    - title: 4.1 Introduction
+      url: /mydoc_introduction4.html
       output: web, pdf
 
-    - title: Posts
-      url: /mydoc_posts.html
+    - title: 4.2 Corridor and Project Traffic Forecasting
+      url: /mydoc_corridor_project_fore.html
       output: web, pdf
 
-    - title: Lists
-      url: /mydoc_lists.html
+    - title: 4.3 Fundamentals of Travel Demand Models
+      url: /mydoc_fundamentals_travel_demand_mod.html
       output: web, pdf
 
-    - title: Conditional logic
+    - title: 4.4 Model Calibration and Validation
       url: /mydoc_conditional_logic.html
       output: web, pdf
 
-    - title: Content reuse
+    - title: 4.5 Model Assessment and Selection
       url: /mydoc_content_reuse.html
       output: web, pdf
 
-    - title: Collections
+    - title: 4.6 Travel Demand Model Development and Application
       url: /mydoc_collections.html
       output: web, pdf
 
-    - title: WebStorm editor tips
+    - title: 4.7 Use of Model Outputs in Traffic Forecasting
       url: /mydoc_webstorm_text_editor.html
       output: web, pdf
 
-    - title: Atom editor tips
+    - title: 4.8 Documentation of Traffic Forecast
       url: /mydoc_atom_text_editor.html
       output: web, pdf
 
-  - title: Navigation
+  - title: 5. Forecasting Without a Travel Demand Model
     output: web, pdf
 
     folderitems:
-    - title: Sidebar navigation
+    - title: 5.1 Introduction
       url: /mydoc_sidebar_navigation.html
       output: web, pdf
 
-    - title: YAML tutorial in the context of Jekyll
+    - title: 5.2 Purpose
       url: /mydoc_yaml_tutorial.html
       output: web, pdf
 
-    - title: Tags
+    - title: 5.3 Unconstrained Versus Constrained Demand
       url: /mydoc_tags.html
       output: web, pdf
 
-    - title: Series
+    - title: 5.4 Project Traffic Forecasting Without a Travel Demand Model
       url: /mydoc_series.html
       output: web, pdf
 
-  - title: Formatting
+    - title: 5.5 Available Resources
+      url: /mydoc_series.html
+      output: web, pdf
+
+    - title: 5.6 Example Traffic Projection for I-10/SR-8 in Columbia County
+      url: /mydoc_series.html
+      output: web, pdf
+
+    - title: 5.7 Summary
+      url: /mydoc_series.html
+      output: web, pdf
+    
+
+  - title: 6. Directional Design Hour Volumes
     output: web, pdf
 
     folderitems:
-    - title: Tooltips
+    - title: 6.1 Introduction
       url: /mydoc_adding_tooltips.html
       output: web, pdf
 
-    - title: Alerts
+    - title: 6.2 Purpose
       url: /mydoc_alerts.html
       output: web, pdf
 
-    - title: Icons
+    - title: 6.3 Development of DDHV Volumes from AADT
       url: /mydoc_icons.html
       output: web, pdf
 
-    - title: Images
+    - title: 6.4 Development of Directional Peak Hour Volumes
       url: /mydoc_images.html
       output: web, pdf
 
-    - title: Code samples
+    - title: 6.5 Use of Design Hour Traffic Volumes
       url: /mydoc_code_samples.html
       output: web, pdf
 
-    - title: Labels
-      url: /mydoc_labels.html
-      output: web, pdf
-
-    - title: Links
-      url: /mydoc_hyperlinks.html
-      output: web, pdf
-
-    - title: Navtabs
-      url: /mydoc_navtabs.html
-      output: web, pdf
-
-    - title: Tables
-      url: /mydoc_tables.html
-      output: web, pdf
-
-    - title: Syntax highlighting
-      url: /mydoc_syntax_highlighting.html
-      output: web, pdf
-
-    - title: Workflow maps
-      url: /mydoc_workflow_maps.html
-      output: web, pdf
-
-  - title: Handling reviews
-    output: web, pdf
-
-    folderitems:
-    - title: Commenting on files
-      url: /mydoc_commenting_on_files.html
-      output: web, pdf
-
+ 
+  
 #    - title: Git collaboration
 #      url: /mydoc_git_collaboration
 #      output: web, pdf
 
-  - title: Publishing
+  - title: 7. Estimating Intersection Turning Movements
     output: web, pdf
 
     folderitems:
-    - title: Build arguments
+    - title: 7.1 Introduction
       url: /mydoc_build_arguments.html
       output: web, pdf
 
-    - title: Themes
+    - title: 7.2 Purpose
       url: /mydoc_themes.html
       output: web, pdf
 
-    - title: Generating PDFs
+    - title: 7.3 Background
       url: /mydoc_generating_pdfs.html
       output: web, pdf
 
-    - title: Help APIs and UI tooltips
+    - title: 7.4 TURNS5-V2014
       url: /mydoc_help_api.html
       output: web, pdf
 
-    - title: Search configuration
+    - title: 7.5 TMTool (New TMTool)
       url: /mydoc_search_configuration.html
       output: web, pdf
 
-    - title: iTerm profiles
+    - title: 7.6 Methods in the NCHRP Report 765
       url: /mydoc_iterm_profiles.html
       output: web, pdf
 
-    - title: Pushing builds to server
+    - title: 7.7 Manual Method
       url: /mydoc_push_build_to_server.html
       output: web, pdf
 
-    - title: Publishing on Github Pages
+    - title: 7.8 Summary of Technique
       url: /mydoc_publishing_github_pages.html
       output: web, pdf
 
-  - title: Special layouts
+    - title: 7.9 Turning Movement Volumes Schematics
+      url: /mydoc_publishing_github_pages.html
+      output: web, pdf
+
+  - title: 8. Equivalent Single Axle Load (ESAL) Forecasting
     output: web, pdf
 
     folderitems:
-    - title: Knowledge-base layout
+    - title: 8.1 Introduction
       url: /mydoc_kb_layout.html
       output: web, pdf
 
-    - title: Glossary layout
+    - title: 8.2 Purpose
       url: /mydoc_glossary.html
       output: web, pdf
 
-    - title: FAQ layout
+    - title: 8.3 ESAL Forecasting Process
       url: /mydoc_faq_layout.html
       output: web, pdf
 
-    - title: Shuffle layout
+    - title: 8.4 Truck Forecasting Process
       url: /mydoc_shuffle.html
       output: web, pdf
 
-  - title: Troubleshooting
+    - title: 8.5 Design Requirements
+      url: /mydoc_faq_layout.html
+      output: web, pdf
+
+    - title: 8.6 Steps for Producing 18-KIP ESALS (New 18KIP ESAL Sheets)
+      url: /mydoc_shuffle.html
+      output: web, pdf
+
+    - title: 8.7 Summary
+      url: /mydoc_faq_layout.html
+      output: web, pdf
+
+
+  - title: 9. Project Traffic for Tolled Managed Lanes
     output: web, pdf
 
     folderitems:
 
-    - title: Troubleshooting
+    - title: 9.1 Introduction
       url: /mydoc_troubleshooting.html
       output: web, pdf
 
-  - title: Tag archives
-    output: web
-    folderitems:
+    - title: 9.2 Travel Demand Forecasting for Express Lanes
+      url: /mydoc_troubleshooting.html
+      output: web, pdf
 
-    - title: Tag archives overview
-      url: /mydoc_tag_archives_overview.html
-      output: web
+    - title: 9.3 Methods for Forecasting Express Lanes Project Traffic
+      url: /mydoc_troubleshooting.html
+      output: web, pdf
 
-      subfolders:
-      - title: Tag archive pages
-        output: web
-        subfolderitems:
+    - title: 9.4 ELToD Method for Forecasting Express Lanes Project Traffic
+      url: /mydoc_troubleshooting.html
+      output: web, pdf
 
-        - title: Formatting pages
-          url: /tag_formatting.html
-          output: web
+    - title: 9.5 Project Forecasting Methodology
+      url: /mydoc_troubleshooting.html
+      output: web, pdf
 
-        - title: Navigation pages
-          url: /tag_navigation.html
-          output: web
 
-        - title: Content types pages
-          url: /tag_content_types.html
-          output: web
-
-        - title: Publishing pages
-          url: /tag_publishing.html
-          output: web
-
-        - title: Special layout pages
-          url: /tag_special_layouts.html
-          output: web
-
-        - title: Collaboration pages
-          url: /tag_collaboration.html
-          output: web
-
-        - title: Troubleshooting pages
-          url: /tag_troubleshooting.html
-          output: web
-
-# Copyright 2021 Google LLC
+  

@@ -289,6 +289,15 @@ li.dropdownActive a {
     background-color: transparent;
     margin-top:10px;
 }
+.navbar-static-top{
+    position: fixed;
+    left: 0;
+    right: 0;
+}
+.navbar-header {
+    position: fixed;
+    left: 50px;
+}
 
 .post-content .rssfeedLink {
     color: #248EC2;
@@ -1183,6 +1192,7 @@ h4.panel-title {
         top: 0;
         border-width: 0 0 1px;
     }
+    
     .navbar-collapse.collapse {
         display: none!important;
     }

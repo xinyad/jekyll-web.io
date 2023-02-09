@@ -61,7 +61,7 @@ entries:
       output: web, pdf
 
     - title: 2.3 Traffic Adjustment Data Sources
-      url: /mydoc_tra_adj_ds.html
+      url: /mydoc_traffic_adjustment_ds.html
       output: web, pdf
 
     - title: 2.4 Short-Term Traffic Counts
@@ -138,23 +138,23 @@ entries:
       output: web, pdf
 
     - title: 4.4 Model Calibration and Validation
-      url: /mydoc_conditional_logic.html
+      url: /mydoc_model_calibration_validation.html
       output: web, pdf
 
     - title: 4.5 Model Assessment and Selection
-      url: /mydoc_content_reuse.html
+      url: /mydoc_model_assessment_selection.html
       output: web, pdf
 
     - title: 4.6 Travel Demand Model Development and Application
-      url: /mydoc_collections.html
+      url: /mydoc_travel_demand_dev.html
       output: web, pdf
 
     - title: 4.7 Use of Model Outputs in Traffic Forecasting
-      url: /mydoc_webstorm_text_editor.html
+      url: /mydoc_outputs_tra_fore.html
       output: web, pdf
 
     - title: 4.8 Documentation of Traffic Forecast
-      url: /mydoc_atom_text_editor.html
+      url: /mydoc_doc_tra_fore.html
       output: web, pdf
 
   - title: 5. Forecasting Without a Travel Demand Model
@@ -162,31 +162,31 @@ entries:
 
     folderitems:
     - title: 5.1 Introduction
-      url: /mydoc_sidebar_navigation.html
+      url: /mydoc_introduction5.html
       output: web, pdf
 
     - title: 5.2 Purpose
-      url: /mydoc_yaml_tutorial.html
+      url: /mydoc_purpose5.html
       output: web, pdf
 
     - title: 5.3 Unconstrained Versus Constrained Demand
-      url: /mydoc_tags.html
+      url: /mydoc_un_constrained_demand.html
       output: web, pdf
 
     - title: 5.4 Project Traffic Forecasting Without a Travel Demand Model
-      url: /mydoc_series.html
+      url: /mydoc_fore_without_demand.html
       output: web, pdf
 
     - title: 5.5 Available Resources
-      url: /mydoc_series.html
+      url: /mydoc_available_resources.html
       output: web, pdf
 
     - title: 5.6 Example Traffic Projection for I-10/SR-8 in Columbia County
-      url: /mydoc_series.html
+      url: /mydoc_example_traffic_proj.html
       output: web, pdf
 
     - title: 5.7 Summary
-      url: /mydoc_series.html
+      url: /mydoc_summary5.html
       output: web, pdf
     
 
@@ -195,7 +195,7 @@ entries:
 
     folderitems:
     - title: 6.1 Introduction
-      url: /mydoc_adding_tooltips.html
+      url: /mydoc_introduction6.html
       output: web, pdf
 
     - title: 6.2 Purpose

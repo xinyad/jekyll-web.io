@@ -1,5 +1,6 @@
 body {
     font-size:15px;
+    height: 100px;
 }
 
 .bs-callout {
@@ -291,9 +292,11 @@ li.dropdownActive a {
 }
 .navbar-static-top{
     position: fixed;
+    z-index:500;
     left: 0;
     right: 0;
 }
+
 .navbar-header {
     position: fixed;
     left: 50px;

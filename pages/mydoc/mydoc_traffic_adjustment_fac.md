@@ -105,15 +105,15 @@ transportation improvements.</div>
 
 <span style="color:red">***IMPORTANT NOTE:***</span>
 
-There is not a single Standard K Factor to be applied to every roadway in
+<font size="2">There is not a single Standard K Factor to be applied to every roadway in
 the state; however, there are multiple standard K factors depending
-upon the area type and facility type.
+upon the area type and facility type.</font>
 
 <span style="color:red">***IMPORTANT NOTE:***</span>
 
-Standard K Factors for planning and design analyses are not directly
-applicable to toll facilities.
+<font size="2">Standard K Factors for planning and design analyses are not directly applicable to toll facilities.</font>
 
+<br>
 <div style="text-align: justify"> Special considerations exist in urban and urbanized areas; both are addressed in the
 footnotes of Table 2-1. In the state’s largest urbanized areas, FDOT has designated
 “core” freeways. These are major, non-toll freeways going into/through the urbanized
@@ -257,11 +257,11 @@ represent a multi-hour peak period rather than a peak hour.
 
 <span style="color:red">***IMPORTANT NOTE:***</span>
 
-<div style="text-align: justify"> FDOT has adopted a Context Classification System comprising eight
+<div style="text-align: justify"> <font size="2">FDOT has adopted a Context Classification System comprising eight
 context classifications in its efforts to plan, design, construct, and
 operate a context-sensitive system of Complete Streets. The context
 classification of a roadway, together with its transportation
 characteristics, will provide information about the users along the
 roadway, the regional and local travel demand of the roadway, and the
 challenges and opportunities of each user. The context classification of a
-roadway should be considered when selecting a Standard K Factor for</div>
+roadway should be considered when selecting a Standard K Factor for</font></div>

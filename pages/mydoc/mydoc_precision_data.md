@@ -6,7 +6,7 @@ folder: mydoc
 ---
 
 
-
+<br>
   
 | Forecasting Volume | Round to Nearest |   
 |:------------------:|:----------------:|
@@ -17,7 +17,7 @@ folder: mydoc
 |     &gt;99,999     |       1000       |   
 
 
-To reflect the uncertainty of estimates and forecasts, volumes should be rounded. Practical guidance is to round the volumes according to the rounding convention as follows. The rounding convention was adapted from AASHTO Guidelines for Traffic Data Programs published in 2009. The convention was revised to be more stringent to address situations where growth is low and future volumes after rounding appear to be the same.
+<div style="text-align: justify">To reflect the uncertainty of estimates and forecasts, volumes should be rounded. Practical guidance is to round the volumes according to the rounding convention as follows. The rounding convention was adapted from AASHTO Guidelines for Traffic Data Programs published in 2009. The convention was revised to be more stringent to address situations where growth is low and future volumes after rounding appear to be the same.</div>
 
 
 

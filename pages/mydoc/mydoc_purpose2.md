@@ -4,12 +4,12 @@ sidebar: mydoc_sidebar
 permalink: mydoc_purpose2.html
 folder: mydoc
 ---
-
-Traffic data is the foundation of highway transportation planning and is used in
+<br>
+<div style="text-align: justify"> Traffic data is the foundation of highway transportation planning and is used in
 making numerous decisions. Accurate traffic data is a crucial element in the
 transportation planning process; therefore, uniform understanding and
 implementation of the process can lead to better design decisions. This chapter
-describes the following:
+describes the following:</div> 
 
 + Types of traffic counting equipment installed and programs used
 + Traffic data collection methods used in Florida

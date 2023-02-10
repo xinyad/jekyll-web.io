@@ -8,8 +8,8 @@ output:
     mathjax: "http://example.com/mathjax/MathJax.js?config=TeX-AMS-MML_HTMLorMML"
 
 ---
-
-The two traffic adjustment factors, Seasonal and Axle Correction, are calculated by
+<br>
+<div style="text-align: justify"> The two traffic adjustment factors, Seasonal and Axle Correction, are calculated by
 the TDA Office and can be accessed through either the Traffic Characteristics
 Inventory (TCI) database or the Florida Traffic Online (FTO) website
 (www.tdaappsprod.dot.state.fl.us/fto/). Both TCI and FTO contain current and
@@ -20,8 +20,8 @@ counties and develops seasonal factors for those counties. These adjustment fact
 are later applied to the short-term counts to estimate AADT, K, D, and T factors.
 Actual AADT, K, D, and T data are collected from permanent, continuous counters.
 Figure 2-3 shows the process of developing traffic adjustment factors and applying
-them to estimate AADT and other traffic parameters from short-term traffic counts.
-
+them to estimate AADT and other traffic parameters from short-term traffic counts.</div>
+<br>
 <span style="color:red">***IMPORTANT NOTE:***</span>
 
 <font size="2">All short-term counts need to be adjusted using Seasonal Factors, but only
@@ -30,17 +30,17 @@ using Axle Correction Factors.</font>
 
 ### **2.5.1 <span style="color:#0a69bb">Seasonal Factor (SF)</span>**
 
-All short-term counts must be adjusted to reflect the seasonal changes in traffic
+<div style="text-align: justify"> All short-term counts must be adjusted to reflect the seasonal changes in traffic
 volumes. The TDA Office determines the Seasonal Factor Category using traffic data
 collected from permanent count locations. The FDOT districts assign a Seasonal
 Factor Category to each short-term traffic count site. The basic assumption is that
 seasonal variability and traffic characteristics of short-term and permanent
-continuous counts are similar.
+continuous counts are similar.</div>
 
-The Monthly Seasonal Factor (MSF) for a particular month at a particular location is
+<div style="text-align: justify"> The Monthly Seasonal Factor (MSF) for a particular month at a particular location is
 derived from the Annual Average Daily Traffic (AADT) for a location divided by the
 Monthly Average Daily Traffic (MADT) for a specific month at that count site as
-shown in Equation 2-1.
+shown in Equation 2-1.</div><br>
 
 
 
@@ -50,11 +50,11 @@ shown in Equation 2-1.
 
 $$MSF=\frac{AADT}{MADT}$$
 
-Weekly Seasonal Factors (SF) are developed by interpolating
+<div style="text-align: justify"> Weekly Seasonal Factors (SF) are developed by interpolating
 between the monthly factors for two consecutive months as
 shown in Equation 2-2. The SFs are calculated for each week of
 the year for each continuous count station and recorded in a
-Peak Season Factor Report available on FTO website.
+Peak Season Factor Report available on FTO website.</div><br>
 
 <div style="background:linear-gradient(to right, white 10%, #b0c4de 50%, white 90%)">
 <center><b>Equarion 2-2</b></center>
@@ -64,25 +64,25 @@ $$SF=MSF_i + \frac{MSF_{i+1}-MSF_i}{N}\times{n}$$
 
 Where:
  
-$SF$ =  Weekly Seasonal Factor
+$$SF$$ =  Weekly Seasonal Factor
 
-$MSF_i$  =  Monthly Seasonal Factor for a particular month The MSFs are assigned to the week of the year that contains the midpoint of the month
+$$MSF_i$$  =  Monthly Seasonal Factor for a particular month The MSFs are assigned to the week of the year that contains the midpoint of the month
 
-$MSF_{i+1}$  =  Monthly Seasonal Factor for the following month i+1
+$$MSF_{i+1}$$  =  Monthly Seasonal Factor for the following month i+1
 
-$N$  =  Number of weeks between the midpoint of month i and the midpoint of the following month i+1, usually 4
+$$N$$  =  Number of weeks between the midpoint of month i and the midpoint of the following month i+1, usually 4
 
-$n$  =  Number of weeks between the midpoint of the month i and the week for SF, usually between 1 and 4
+$$n$$  =  Number of weeks between the midpoint of the month i and the week for SF, usually between 1 and 4
 
 ### **2.6.2 <span style="color:#0a69bb">Standard K Factor (SF)</span>**
 
-The K factor is defined as the proportion of AADT occurring in the peak hour. It is one
+<div style="text-align: justify"> The K factor is defined as the proportion of AADT occurring in the peak hour. It is one
 of the most critical traffic factors in roadway planning and design. The K factor is
 often referred to as the Design Hour Factor as it relates to the proportion of the
 AADT during the design hour for the design year. The Design Hour Volume (DHV) is
 total traffic in both directions expected to occur during the design hour for the
 design year, and it is determined by multiplying the AADT by the K factor. Equation
-2-4 shows the relationship between AADT, DHV, and K:
+2-4 shows the relationship between AADT, DHV, and K:</div><br>
 
 
 <div style="background:linear-gradient(to right, white 10%, #b0c4de 50%, white 90%)">
@@ -91,7 +91,7 @@ design year, and it is determined by multiplying the AADT by the K factor. Equat
 
 $$DHV = AADT\times{K}$$
 
-Based on comprehensive analyses and extensive public outreach, FDOT has
+<div style="text-align: justify"> Based on comprehensive analyses and extensive public outreach, FDOT has
 established statewide “Standard K Factors” that should be applied to develop project
 traffic forecast from the planning phase through the design phase of the project.
 Standard K Factors are fixed K parameters predetermined based on area type and
@@ -101,7 +101,7 @@ recommended standard K factors are presented in Table 2-1. The Standard K Factor
 are also reported in the [FDOT Traffic Information Online Web Application](https://link-url-here.org). Use of statewide Standard K Factors promotes better transportation policies and projects,
 reduces time and effort developing peak hour numbers, offers consistency and
 simplicity, and represents a sensible approach relating to development and
-transportation improvements.
+transportation improvements.</div>
 
 <span style="color:red">***IMPORTANT NOTE:***</span>
 
@@ -114,7 +114,7 @@ upon the area type and facility type.
 Standard K Factors for planning and design analyses are not directly
 applicable to toll facilities.
 
-Special considerations exist in urban and urbanized areas; both are addressed in the
+<div style="text-align: justify"> Special considerations exist in urban and urbanized areas; both are addressed in the
 footnotes of Table 2-1. In the state’s largest urbanized areas, FDOT has designated
 “core” freeways. These are major, non-toll freeways going into/through the urbanized
 core areas (i.e., I-4 in the Orlando area). As these freeways pass through an urbanized
@@ -136,7 +136,7 @@ include both weekdays and weekends should be collected. K Factors should be
 developed by analyzing the short-term traffic counts and relevant.
 traffic information from Florida Traffic Information Online, if available. The project
 team should present the analysis results and recommendations to FDOT Central
-Office for approval.
+Office for approval.</div>
 
 ### **Table 2-1 FDOT Standard K Factors**
 
@@ -257,11 +257,11 @@ represent a multi-hour peak period rather than a peak hour.
 
 <span style="color:red">***IMPORTANT NOTE:***</span>
 
-FDOT has adopted a Context Classification System comprising eight
+<div style="text-align: justify"> FDOT has adopted a Context Classification System comprising eight
 context classifications in its efforts to plan, design, construct, and
 operate a context-sensitive system of Complete Streets. The context
 classification of a roadway, together with its transportation
 characteristics, will provide information about the users along the
 roadway, the regional and local travel demand of the roadway, and the
 challenges and opportunities of each user. The context classification of a
-roadway should be considered when selecting a Standard K Factor for
+roadway should be considered when selecting a Standard K Factor for</div>

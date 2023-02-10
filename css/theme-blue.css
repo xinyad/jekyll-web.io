@@ -10,6 +10,7 @@ h4 {color: #808080; }
 
 .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
     background-color: #248ec2;
+    
     color: white;
 }
 
@@ -22,7 +23,8 @@ h4 {color: #808080; }
 }
 
 div.navbar-collapse .dropdown-menu > li > a:hover {
-    background-color: #347DBE;
+    /* background-color: #347DBE; */
+    background-color: #20a3d3;
 }
 
 .nav li.thirdlevel > a {
@@ -38,8 +40,9 @@ a[data-toggle="tooltip"] {
 }
 
 .navbar-inverse {
-    background-color: #347DBE;
-    border-color: #015CAE;
+    /* background-color: #347DBE; */
+    background-color: #20a3d3;
+    border-color: #20a3d3;
 }
 .navbar-inverse .navbar-nav>li>a, .navbar-inverse .navbar-brand {
     color: white;
@@ -58,7 +61,7 @@ a.navbar-brand:hover {
 }
 
 .navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus {
-    background-color: #015CAE;
+    background-color: #5caacbd1; /*when Chpaters button was clicked*/
     color: #ffffff;
 }
 
@@ -73,7 +76,8 @@ a.navbar-brand:hover {
 }
 
 .navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
-    background-color: #347DBE;
+    /* background-color: #347DBE; */
+    background-color: #20a3d3;
 }
 
 .btn-primary:hover,
@@ -81,8 +85,10 @@ a.navbar-brand:hover {
 .btn-primary:active,
 .btn-primary.active,
 .open .dropdown-toggle.btn-primary {
-    background-color: #248ec2;
-    border-color: #347DBE;
+    /* background-color: #248ec2;
+    border-color: #347DBE; */
+    background-color: #20a3d3;
+    border-color: #20a3d3;
 }
 
 .printTitle {

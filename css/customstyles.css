@@ -197,6 +197,10 @@ p.post-meta {font-size: 80%; color: #777;}
 .entry-date{font-size:14px;font-size:0.875rem;line-height:1.71429;margin-bottom:0;text-transform:uppercase;}
 
 /* search area */
+#search-demo-container{
+    /* width: 150px; */
+}
+
 #search-demo-container ul#results-container {
     list-style: none;
     font-size: 12px;
@@ -205,13 +209,14 @@ p.post-meta {font-size: 80%; color: #777;}
     top: 40px; /* if you change anything about the nav, you'll prob. need to reset the top and left values here.*/
     left: 20px;
     z-index: -1;
-    width:223px;
+    width:140px;
     border-left: 1px solid #dedede;
 }
 
 
 ul#results-container a {
     background-color: transparent;
+    
 }
 
 ul#results-container a:hover {
@@ -223,14 +228,15 @@ ul#results-container a:hover {
     color: black;
 }
 #search-input {
-    padding: .5em;
+    /* padding: .3em; */
     margin-left:20px;
-    width:20em;
-    font-size: 0.8em;
+    width:140px;
+    font-size: 1em;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-    margin-top:10px;
+    margin-top:9px;
+    vertical-align: middle;
 }
 /* end search */
 
@@ -335,6 +341,7 @@ a.accordion-toggle, a.accordion-collapsed {
     /* padding: 4px;*/
     padding:0px;
     margin: 0px;
+    /* position: fixed; */
 }
 
 .nav > li {
@@ -392,6 +399,7 @@ background-color: #347DBE;
 
 ul#mysidebar {
     border-radius:0px;
+    position: fixed;
 }
 
 .nav ul li ul li a {

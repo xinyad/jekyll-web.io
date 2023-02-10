@@ -2,8 +2,8 @@
 
 entries:
 - title: sidebar
-  product: Jekyll Doc Theme
-  version: 6.0
+  product:  <span style="color:black">Chapters</span> 
+  # version: 6.0
   folders:
 
   - title:
@@ -199,19 +199,19 @@ entries:
       output: web, pdf
 
     - title: 6.2 Purpose
-      url: /mydoc_alerts.html
+      url: /mydoc_.html
       output: web, pdf
 
     - title: 6.3 Development of DDHV Volumes from AADT
-      url: /mydoc_icons.html
+      url: /mydoc_.html
       output: web, pdf
 
     - title: 6.4 Development of Directional Peak Hour Volumes
-      url: /mydoc_images.html
+      url: /mydoc_.html
       output: web, pdf
 
     - title: 6.5 Use of Design Hour Traffic Volumes
-      url: /mydoc_code_samples.html
+      url: /mydoc_.html
       output: web, pdf
 
  
@@ -225,39 +225,39 @@ entries:
 
     folderitems:
     - title: 7.1 Introduction
-      url: /mydoc_build_arguments.html
+      url: /mydoc_.html
       output: web, pdf
 
     - title: 7.2 Purpose
-      url: /mydoc_themes.html
+      url: /mydoc_.html
       output: web, pdf
 
     - title: 7.3 Background
-      url: /mydoc_generating_pdfs.html
+      url: /mydoc_.html
       output: web, pdf
 
     - title: 7.4 TURNS5-V2014
-      url: /mydoc_help_api.html
+      url: /mydoc_.html
       output: web, pdf
 
     - title: 7.5 TMTool (New TMTool)
-      url: /mydoc_search_configuration.html
+      url: /mydoc_.html
       output: web, pdf
 
     - title: 7.6 Methods in the NCHRP Report 765
-      url: /mydoc_iterm_profiles.html
+      url: /mydoc_.html
       output: web, pdf
 
     - title: 7.7 Manual Method
-      url: /mydoc_push_build_to_server.html
+      url: /mydoc_.html
       output: web, pdf
 
     - title: 7.8 Summary of Technique
-      url: /mydoc_publishing_github_pages.html
+      url: /mydoc_.html
       output: web, pdf
 
     - title: 7.9 Turning Movement Volumes Schematics
-      url: /mydoc_publishing_github_pages.html
+      url: /mydoc_.html
       output: web, pdf
 
   - title: 8. Equivalent Single Axle Load (ESAL) Forecasting
@@ -265,31 +265,31 @@ entries:
 
     folderitems:
     - title: 8.1 Introduction
-      url: /mydoc_kb_layout.html
+      url: /mydoc_.html
       output: web, pdf
 
     - title: 8.2 Purpose
-      url: /mydoc_glossary.html
+      url: /mydoc_.html
       output: web, pdf
 
     - title: 8.3 ESAL Forecasting Process
-      url: /mydoc_faq_layout.html
+      url: /mydoc_.html
       output: web, pdf
 
     - title: 8.4 Truck Forecasting Process
-      url: /mydoc_shuffle.html
+      url: /mydoc_.html
       output: web, pdf
 
     - title: 8.5 Design Requirements
-      url: /mydoc_faq_layout.html
+      url: /mydoc_.html
       output: web, pdf
 
     - title: 8.6 Steps for Producing 18-KIP ESALS (New 18KIP ESAL Sheets)
-      url: /mydoc_shuffle.html
+      url: /mydoc_.html
       output: web, pdf
 
     - title: 8.7 Summary
-      url: /mydoc_faq_layout.html
+      url: /mydoc_.html
       output: web, pdf
 
 
@@ -299,23 +299,23 @@ entries:
     folderitems:
 
     - title: 9.1 Introduction
-      url: /mydoc_troubleshooting.html
+      url: /mydoc_.html
       output: web, pdf
 
     - title: 9.2 Travel Demand Forecasting for Express Lanes
-      url: /mydoc_troubleshooting.html
+      url: /mydoc_.html
       output: web, pdf
 
     - title: 9.3 Methods for Forecasting Express Lanes Project Traffic
-      url: /mydoc_troubleshooting.html
+      url: /mydoc_.html
       output: web, pdf
 
     - title: 9.4 ELToD Method for Forecasting Express Lanes Project Traffic
-      url: /mydoc_troubleshooting.html
+      url: /mydoc_.html
       output: web, pdf
 
     - title: 9.5 Project Forecasting Methodology
-      url: /mydoc_troubleshooting.html
+      url: /mydoc_.html
       output: web, pdf
 
 

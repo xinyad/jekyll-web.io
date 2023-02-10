@@ -101,7 +101,7 @@ recommended standard K factors are presented in Table 2-1. The Standard K Factor
 are also reported in the [FDOT Traffic Information Online Web Application](https://link-url-here.org). Use of statewide Standard K Factors promotes better transportation policies and projects,
 reduces time and effort developing peak hour numbers, offers consistency and
 simplicity, and represents a sensible approach relating to development and
-transportation improvements.</div>
+transportation improvements.</div><br>
 
 <span style="color:red">***IMPORTANT NOTE:***</span>
 

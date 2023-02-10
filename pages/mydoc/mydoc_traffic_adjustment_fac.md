@@ -74,7 +74,7 @@ $$N$$  =  Number of weeks between the midpoint of month i and the midpoint of th
 
 $$n$$  =  Number of weeks between the midpoint of the month i and the week for SF, usually between 1 and 4
 
-### **2.6.2 <span style="color:#0a69bb">Standard K Factor (SF)</span>**
+### **2.5.2 <span style="color:#0a69bb">Standard K Factor (SF)</span>**
 
 <div style="text-align: justify"> The K factor is defined as the proportion of AADT occurring in the peak hour. It is one
 of the most critical traffic factors in roadway planning and design. The K factor is

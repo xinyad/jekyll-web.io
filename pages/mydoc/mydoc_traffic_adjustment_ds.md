@@ -33,7 +33,7 @@ the user with day-to-day traffic information throughout the year and the informa
 collected is used to produce AADT, K, and D factors.</div>
 
 
-### **2.3.1 <span style="color:#0a69bb">Continuous Classification Counts</span>**
+### **2.3.2 <span style="color:#0a69bb">Continuous Classification Counts</span>**
 
 <div style="text-align: justify"> FDOT has approximately 236 permanently installed continuous classification
 counters. The TDA Office collects classification data based on the classification of the

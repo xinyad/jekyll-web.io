@@ -193,7 +193,7 @@ traffic assignment</td>
   </tr>
   
 </table>
-
+<br>
 ELToD estimates the volume of traffic by hour on both general use and Express Lanes by
 applying <b>Equation 9-1</b> to O-D matrices from any travel demand model, including models that
 already have Express Lanes functionality in the highway assignment process. ELToD also

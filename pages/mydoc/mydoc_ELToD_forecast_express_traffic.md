@@ -1,0 +1,287 @@
+---
+title: ELToD Method for Forecasting Express Lanes Project Traffic
+sidebar: mydoc_sidebar
+permalink: mydoc_ELToD_forecast_express_traffic.html
+folder: mydoc
+output: 
+  ioslides_presentation:
+    mathjax: "http://example.com/mathjax/MathJax.js?config=TeX-AMS-MML_HTMLorMML"
+
+---
+
+
+<style>
+  div{text-align: justify;}
+
+</style>
+
+<br>
+The use of a regional travel demand model in combination with the ELToD Static Assignment
+Model is the preferred method to prepare project traffic forecasts for Express Lanes. ELToD is
+a stand-alone application that follows the FSUTMS standards and works in conjunction with all
+Florida’s travel demand models. ELToD was initially calibrated using 2011 data from I-95
+Express Phase 1. Since then, ELToD has been re-validated against observed data in Broward
+County on both I-95 Express Phase 2 and I-595 Express. Florida’s Turnpike Enterprise has
+used ELToD for project traffic forecasting for numerous projects around the state in the South
+Florida, Central Florida, and West Central Florida regions.
+
+
+<style>
+table {
+  border-collapse: collapse;
+  width: 100%;
+  display: table-cell;
+  /* vertical-align: center;  */
+  
+  /* text-align: center; */
+}
+
+
+th{
+  text-align:center;
+  
+}
+
+td {
+  text-align: left;
+  vertical-align: middle;
+  border-color: #96D4D4;
+  /* padding: 8px; */
+  /* width: 25%;  */
+
+}
+
+tr:nth-child(even) {
+  background-color:  #EEF2F8;
+}
+</style>
+
+<div style="text-align:center; color:grey"><i>Table 9-1 Express Lanes Project Traffic Forecasting Methods Used in Florida</i></div> 
+
+
+<table>
+  <tr>
+  <th colspan=2>Method</th>
+  <th>Activity/Project Phase</th>
+  <th>Data Requirements</th>
+  <th>Pros</th>
+  <th>Cons</th>
+  </tr>
+
+  <tr>
+  <td colspan=2>Manual Estimation Using Peak Hour O-D</td>
+  <td>Sketch-Level</td>
+  <td>- O-D data<br>
+      - EL Access Points Estimated EL Share</td>
+  <td>- Quick estimation method<br>
+      - Provides expected volume range for EL Ramps</td>
+  <td>- Supply/demand equilibrium not considered<br>
+      - Aggregate effect of multiple O-Ds not considered</td>
+  </tr>
+
+
+  <tr>
+  <td rowspan=2 bgcolor=white style="vertical-align: middle;">Travel Demand Model Based</td>
+  <td>Regional Travel Demand Model (TDM) with Dynamic Toll Function or VTTS Curve Assignment</td>
+  <td>Corridor Panning / PD&amp;E /Design</td>
+  <td>- EL Access Points<br>
+- Number of EL Lanes<br>
+- Speed &amp; Capacity Info<br>
+- Dynamic Toll Function/
+VTTS Curve</td>
+  <td>- Estimates Daily or period
+demand directly from
+TDM without needing to
+use another model<br>
+- Provides a systemwide
+EL evaluation</td>
+  <td>- Typically uses
+generalized cost or
+predefined share<br>
+- Dynamic toll calculation
+typically at period level
+and not at 15-min or
+hourly levels<br>
+- Toll amount not reported
+or used<br>
+- VOR not considered<br>
+- Long model run times
+for alternative testing<br>
+- Post processing needed</td>
+  </tr>
+
+  <tr>
+  
+  <td>Regional
+Travel
+Demand
+Model with
+ELToD Static
+Assignment
+Model</td>
+  <td>Corridor
+Planning /
+PD&amp;E /
+Design</td>
+  <td>- O-D (from TDM)<br>
+- EL Access Points<br>
+- Number of EL Lanes<br>
+- Speed &amp; Capacity Info<br>
+- Toll Choice Parameters
+(VTTS, VOR, Toll
+Constant)</td>
+  <td>- Proven to be efficient<br>
+- Quick turnaround time for
+alternatives testing<br>
+- Consistent results in
+controlled environment<br>
+- ncorporates value of
+reliability<br>
+- Calculates tolls,
+congested speeds, and
+volumes by hour</td>
+  <td>- Does not account for
+queue spillback<br>
+- EL choice selection at
+first entry only</td>
+  </tr>
+
+  <tr>
+  <td colspan=2 bgcolor=white>Micro-simulation
+Model</td>
+  <td>Design</td>
+  <td>- O-D (from TDM or
+mesoscopic model)
+- Concept Plans (with EL
+Access Points and
+Number of Lanes)<br>
+- Signal Timings
+- Pricing Model
+Parameters<br>
+- Decision Model
+Parameters (VTTS, Toll
+Constant)</td>
+  <td>- Pricing model customized
+to match the Statewide
+Express Lanes Software
+tolling algorithm<br>
+- Accounts for complex
+weaving and geometry<br>
+- Accounts for queue build-
+up, spillback and
+dissipation<br>
+- Can be integrated with
+other multi-resolution
+tools</td>
+  <td>- Extensive time and effort
+for model development
+and validation<br>
+- Default model does not
+account for VOR and
+requires customized
+scripting<br>
+- EL choice selection at
+first entry only<br>
+- Coding difficulties for
+unconventional
+ingress/egress ramp combinations<br>
+- EL module cannot be
+run concurrent with the
+network-wide
+microscopic dynamic
+traffic assignment</td>
+  </tr>
+  
+</table>
+
+ELToD estimates the volume of traffic by hour on both general use and Express Lanes by
+applying <b>Equation 9-1</b> to O-D matrices from any travel demand model, including models that
+already have Express Lanes functionality in the highway assignment process. ELToD also
+identifies the Express Lanes dynamic toll and congested speeds by hour based on traffic
+conditions. The ELToD model has a robust choice model component in a controlled
+environment that can account for various factors that are involved in Express Lanes choice,
+such as reliability, comfort, safety, lane preference and avoidance of trucks. ELToD provides
+robust results with quick run times; yet is detailed enough for project traffic forecasting and for
+Express Lanes ingress/egress traffic operations testing.
+
+In ELToD, the percentage of traffic using the Express Lanes, or Express Lanes share, is
+calculated using the equation below. The equation reflects the latest representation of the toll
+choice model.
+
+$$Express\:Lanes\:Share = \frac{1}{1+e^{(-1*(\beta_{constant}+\beta_{Time}*Time+\beta_{Toll}*Toll+\beta_{Reliability}*Reliability-Distance Penalty))}}$$
+
+<div style="text-align:center; color:grey"><i>Equation 9-1</i></div> 
+
+<style>
+  p{padding-left:15px}
+</style>
+
+Where:
+
+$$\beta_{constant}$$ - This parameter determines the Express Lanes share when time, toll, and reliability have a net zero effect. 
+
+$$\beta_{Time}$$ - This parameter is for the travel time coefficient in the choice model equation
+defined in the ELToD Model as the Travel Time Coefficient (with units of 1/min). This is
+the disutility of increasing travel time by one minute.
+
+$$\beta_{Toll}$$ - This parameter is for the toll cost coefficient in the choice model equation defined in the ELToD Model as the Toll Coefficient (with units of 1/$). This is the disutility of
+increasing the toll by one dollar.
+
+$$\beta_{Reliability}$$ - This parameter is calculated from a Reliability Ratio (defined in the ELToD
+Model as the Reliability Coefficient Ratio) and the travel time coefficient. It indicates the
+disutility of one unit (one minute) of standard deviation.
+
+Distance Penalty – This parameter is a penalty applied to trips that may use the Express
+Lanes for a short distance to discourage short Express Lanes trips.
+
+The ELToD Model procedure uses four primary sets of inputs:
+<ul>
+<li style="margin:0">Total estimated subarea project traffic (in a matrix layout) at a period or daily level.</li>
+<li style="margin:0">Hourly distribution of total traffic within the project corridor (by direction), based on
+observed traffic data.</li>
+<li style="margin:0">Geometric configuration of the subarea network links: link lengths, free flow speed, lane
+capacity, and link facility type.</li>
+<li style="margin:0">Toll costs: Pricing policy curve, including toll rate limits (minimum and maximum toll
+rates).</li>
+</ul>
+
+
+The steps to use ELToD for project traffic forecasting are as follows:
+
+<ol>
+<li style="margin:0"> Obtain inputs (1, 2, and 3 above) from the validated regional travel demand model.</li>
+
+<li style="margin:0">Obtain input (4 above) from the current FDOT toll pricing policy.</li>
+
+<li style="margin:0">Create a subarea model with Express Lanes and apply ELToD.</li>
+
+<li style="margin:0">Update the ELToD model parameters, consistent with guidance in the ELToD – User
+Guide and Documentation.</li>
+
+<li style="margin:0">Run the ELToD model.</li>
+</ol>
+
+The following model output data is extracted from the link data, and summarized by hour and
+direction:
+
+<ul>
+<li style="margin:0">Volume</li>
+<li style="margin:0">Time of Day Percent</li>
+<li style="margin:0">Express Lanes Share</li>
+<li style="margin:0">V/C Ratio</li>
+<li style="margin:0">Congested Speed</li>
+<li style="margin:0">Tolls</li>
+<li style="margin:0">Revenue</li>
+</ul>
+
+
+For more detailed information about the ELToD Static Assignment Model, please refer to the
+ELToD – User Guide and Documentation. This report can be requested through the Florida’s
+Turnpike Enterprise, Toll Studies &amp; Express Lanes Development Department.
+
+It should be recognized that there have been some research efforts to evaluate the use of
+mesoscopic dynamic traffic assignment (DTA) models, such as Cube Avenue and DTALite, for
+Express Lanes forecasting. However, these methods would require significant programming
+and calibration efforts to include the ELToD toll choice model methodology. An ELToD DTA
+version has been developed by the Florida’s Turnpike Toll Studies &amp; Express Lanes
+Development Department and can be made available upon request.

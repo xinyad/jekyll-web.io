@@ -1,0 +1,68 @@
+---
+title: Travel Demand Forecasting for Express Lanes
+sidebar: mydoc_sidebar
+permalink: mydoc_demand_forecast_express_lanes.html
+folder: mydoc
+---
+
+
+<style>
+  div{
+    text-align: justify;
+  }
+</style>
+
+<br>
+<div>The determination of the feasibility of an Express Lanes project and evaluation of alternatives
+for the Express Lanes require a travel demand forecasting tool that is capable of assessing the
+impact of tolling on traffic volumes and patterns. Depending on the complexity of the project or the phases in the project development process, a simple spreadsheet application may suffice.
+However, in most cases, a comprehensive travel demand model is needed to forecast the level
+of demand for the Express Lanes facility, the impacts of pricing on corridor and regional travel,
+and the impacts of tolling on different groups of travelers.</div>
+
+<br><span style="color:#20a3d3"><b>9.2.1 Desirable Features for Travel Demand Models</b></span>
+
+<div>The demand to use Express Lanes is affected by a number of factors. Traveler’s
+sociodemographic characteristics, the trip origin and destination and associated highway
+network configurations, trip length, actual and perceived travel time savings, travel time
+reliability, and most importantly, the travelers’ Value of Travel Time Savings (VTTS) for the
+benefits of using the Express Lanes all affect the existing and future travel demand for Express
+Lanes. How well a travel forecasting model predicts demand for an Express Lanes facility
+depends on whether the model is structured to capture these factors that influence the travel
+demand, how well it is calibrated and validated to reflect existing conditions if an Express Lanes
+facility already exists in the region, and how it is applied to quantify the uncertainty in the future.
+
+When evaluating a travel demand model for Express Lanes, the following features are
+desirable:<ul>
+<li style="margin:0">Time-of-Day – the model produces travel demand by different times of a day and allows
+changing the time of travel in response to variable toll amounts.</li>
+<li style="margin:0">Route Choice – model assigns traffic to general-use lanes and the Express Lanes
+explicitly based on varying toll amounts.</li>
+<li style="margin:0">Mode Choice – mode choice structure allows formation or dissolution of carpools in
+response to toll policies or switching to or from competitive transit modes.</li>
+<li style="margin:0">Travel Cost – accurate representation of the cost of using Express Lanes.</li>
+<li style="margin:0">Value of Travel Time Savings (VTTS) – VTTS is the implied toll value that travelers
+would be willing to pay for a given savings in travel time.</li>
+<li style="margin:0">Value of Reliability (VOR) – VOR is the implied toll a traveler would pay to reduce the
+variability of a trip’s travel time.</li></ul></div>
+
+<div>Many of the advanced travel demand models in Florida already include some or all of these
+features. However, having these features alone is not sufficient to use the model for an Express
+Lanes project. The underlying assumptions used in the model should be identified, and
+sensitivity analyses may be needed to examine how changes in key assumptions would affect
+the results of traffic modeling.</div>
+
+<br><span style="color:#20a3d3"><b>9.2.2 Data Used in Express Lanes Modeling</b></span>
+
+<div>Travel demand models used for Express Lanes also use data from regional household travel surveys, Census population estimates and employment projections, origin-destination surveys, and traffic counts. However, a critical parameter for forecasting Express Lanes demand is the VTTS for the travel population. If Express Lanes facilities already exist in an area, the VTTS can
+be obtained by collecting traffic volumes, travel times, toll rates, and travel behavior data from
+travelers using the Express Lanes facilities. However, in areas where such facilities do not exist,
+stated preference surveys can be conducted to gather information about potential users of the
+new facility. Stated preference surveys from other areas could also be considered after a careful
+evaluation of the socioeconomic and travel characteristics of the areas determines substantial
+similarities between the area and project area exist. Stated preference surveys attempt to elicit
+VTTS information by asking travelers to state the travel choices they would make when given a
+set of hypothetical scenarios. Under carefully constructed experimental designs and data
+analysis techniques, these surveys provide information on VTTS that can be used in a travel
+demand model.</div>
+

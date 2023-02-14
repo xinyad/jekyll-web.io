@@ -79,6 +79,7 @@ h3[id],
 h4[id],
 h5[id],
 h6[id],
+/* h7[id], */
 dt[id]{
 padding-top: 60px;
 margin-top: -40px
@@ -198,7 +199,7 @@ p.post-meta {font-size: 80%; color: #777;}
 
 /* search area */
 #search-demo-container{
-    /* width: 150px; */
+    width: 90px;
 }
 
 #search-demo-container ul#results-container {
@@ -209,7 +210,7 @@ p.post-meta {font-size: 80%; color: #777;}
     top: 40px; /* if you change anything about the nav, you'll prob. need to reset the top and left values here.*/
     left: 20px;
     z-index: -1;
-    width:140px;
+    width:80px;
     border-left: 1px solid #dedede;
 }
 
@@ -230,7 +231,7 @@ ul#results-container a:hover {
 #search-input {
     /* padding: .3em; */
     margin-left:20px;
-    width:140px;
+    width:80px;
     font-size: 1em;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -295,6 +296,9 @@ li.dropdownActive a {
 .navbar-inverse .navbar-nav > li > a {
     background-color: transparent;
     margin-top:10px;
+
+    margin-right: -8px;
+    /* right: 5px; */
 }
 .navbar-static-top{
     position: fixed;
@@ -305,7 +309,7 @@ li.dropdownActive a {
 
 .navbar-header {
     position: fixed;
-    left: 50px;
+    left: 42px;
 }
 
 .post-content .rssfeedLink {
@@ -399,7 +403,10 @@ background-color: #347DBE;
 
 ul#mysidebar {
     border-radius:0px;
-    position: fixed;
+    display:block;
+    /* position:fixed; */
+    
+    /* float:left; */
 }
 
 .nav ul li ul li a {
@@ -1209,7 +1216,8 @@ h4.panel-title {
     }
     .navbar-nav {
         float: none!important;
-        margin-top: 7.5px;
+        margin-top: 35px;
+        /* margin-bottom: px; */
     }
     .navbar-nav>li {
         float: none;

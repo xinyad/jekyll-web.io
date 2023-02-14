@@ -299,23 +299,32 @@ entries:
     folderitems:
 
     - title: 9.1 Introduction
-      url: /mydoc_.html
+      url: /mydoc_introduction9.html
       output: web, pdf
 
     - title: 9.2 Travel Demand Forecasting for Express Lanes
-      url: /mydoc_.html
+      url: /mydoc_demand_forecast_express_lanes.html
       output: web, pdf
 
     - title: 9.3 Methods for Forecasting Express Lanes Project Traffic
-      url: /mydoc_.html
+      url: /mydoc_methods_forecast_express_traffic.html
       output: web, pdf
 
     - title: 9.4 ELToD Method for Forecasting Express Lanes Project Traffic
-      url: /mydoc_.html
+      url: /mydoc_ELToD_forecast_express_traffic.html
       output: web, pdf
 
     - title: 9.5 Project Forecasting Methodology
-      url: /mydoc_.html
+      url: /mydoc_project_forecast_methodology.html
+      output: web, pdf
+
+  - title: Glossary
+    output: web, pdf
+
+    folderitems:
+
+    - title: Glossary
+      url: /mydoc_glossary.html
       output: web, pdf
 
 

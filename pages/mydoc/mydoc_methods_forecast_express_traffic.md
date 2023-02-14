@@ -1,0 +1,77 @@
+---
+title: Methods for Forecasting Express Lanes Project Traffic
+sidebar: mydoc_sidebar
+permalink: mydoc_methods_forecast_express_traffic.html
+folder: mydoc
+---
+
+<br>
+There are three approaches to forecasting project traffic for Express Lanes:
+
+<style>
+  div{text-align: justify;}
+</style>
+
+<span style="color:#20a3d3"><b>9.3.1 Manual Estimation Using Peak Hour Origin-Destination (O-D)</b></span>
+
+This method uses a manual estimation of the Express Lanes volume by applying a fixed percentage of the Express Lanes share of traffic to future year peak hour origin-destination (O- D) volumes. The shares of the Express Lanes can be derived from observed data on existing corridors, such as I-95 Express. The future year O-D volumes are developed through use of observed data and corridor forecasts from a travel demand model.
+
+<span style="color:#20a3d3"><b>9.3.2 Travel Demand Model (TDM) Based</b></span>
+
+<ul>
+
+<li style="margin:0"><b>1. Regional TDM with Dynamic Toll Function or VTTS Curve Assignment</b><br>
+Some Florida travel demand models have embedded highway assignment scripting to
+specifically estimate Express Lanes traffic. The Southeast Regional Planning Model
+(SERPM) uses a generalized cost assignment and a logit function that dynamically
+calculates the toll after each iteration based on the volume to capacity (v/c) ratio in the
+Express lanes. The Tampa Bay Regional Planning Model (TBRPM) uses predefined
+VTTS curve to estimate the probability of the user to pay given the marginal cost/minute
+saved, and a toll policy curve to describe how the toll varies by congestion as measured
+by the volume to capacity ratio.</li>
+
+<li style="margin:0"><b>2. Regional TDM with ELToD Static Assignment Model</b><br>ELToD is a traffic assignment tool used in conjunction with a regional travel demand
+model to split traffic between Express Lanes and general use or general toll lanes. The
+ELToD toll choice model uses travel time savings, costs, reliability, and trip distance to
+calculate the percentage of travelers choosing the Express Lanes. ELToD estimates the
+volume of traffic by hour on both the general use and the Express Lanes using a highway trip table from any travel demand model. In addition, it estimates the Express
+Lanes dynamic toll and congested speeds by hour based on traffic conditions.</li>
+</ul>
+
+<span style="color:#20a3d3"><b>9.3.3 Microsimulation Model</b></span>
+
+This method uses modules within microscopic simulation software packages to dynamically
+assign traffic to the Express Lanes. Microscopic simulation models use a pricing component to
+estimate the toll amount based on measured conditions such as travel time savings and speed.
+An embedded decision model determines the probability of choice to use the Express Lanes
+given the travel time savings and costs. When using microsimulation models, the decision
+model should be modified so that it is  <span style="color:#0a69bb">consistent</span> with ELToD’s toll choice model (<b>Equation 9-1</b>). In addition, the model has to be a DTA model which is based on the regional network. This
+method requires O-D matrices from a macro- or meso-scopic model as an input to perform the
+traffic assignment and can be part of a multi-resolution approach.
+
+A core function of Express Lanes forecasting is to accurately account for traveler preferences to
+choose the Express Lanes. This preference is largely influenced by the model inputs, such as
+VTTS, VOR, and the dynamic toll amount. <b>Table 9-1</b> summarizes the model inputs for the
+various Express Lanes forecasting methods described above, along with some pros and cons
+for each method. It also includes the appropriate phase(s) in the project development process
+where the method is recommended to use. Each project’s needs should be evaluated against
+the various forecasting methods.
+
+Manual estimation can be used to quickly approximate the anticipated range in traffic
+projections for an Express Lanes segment. The manual method is typically suited for sketch
+level activities on a simplified Express Lanes corridor and is generally not for project traffic
+forecasting at the PD&amp;E or Design level. Regional travel demand models with customized
+highway assignment scripting can provide an estimation of Express Lanes demand at the period
+or daily level. However, the models do not account dynamic pricing fluctuations at the design
+hour level. In addition, the choice component used to calculate the Express Lanes share
+typically includes the VTTS and costs but excludes the VOR. Microsimulation models can
+provide the sensitivity to dynamic pricing but requires specialized scripting to include the VOR
+and the additional effort to properly calibrate the existing conditions model. As stated earlier,
+each project’s needs should be evaluated against the various forecasting methods.
+
+<div style="background:#D3D3D3">
+<img src="images/noteicon.jpg" style="max-width: 3%; margin-left:5px"><font size = 3>&nbsp;&nbsp;Important Note:</font>
+<ul>Both ELToD and microsimulation models are only “assignment” models. Neither can
+be used without appropriate trip tables or O-D matrices produced by either a TDM or
+observed data with proper expansion to account for future growth.</ul>
+</div><br>

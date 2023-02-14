@@ -45,5 +45,5 @@ Classification study. There are currently 13 vehicle classification types rangin
 motorcycles (Class 1) to Multi-Trailer 7 or more-axle Trucks (Class 13). In addition, TDA
 has a WIM count program which collects vehicle classification and truck weights.</div>
 
-<center><img src="images/fig2_2.png" ></center>
+<center><img src="images/fig2_2.png" width="6%" ></center>
 <div style="text-align:center; color:grey"><i>Figure 2-2 FHWA Vehicle Classification Scheme F</i></div> 

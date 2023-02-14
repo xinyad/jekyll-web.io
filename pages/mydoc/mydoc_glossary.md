@@ -37,13 +37,15 @@ output:
 
 
 <br>
-<ul>
+<div class="float-child1"> &nbsp;</div>
+<div class="float-child2"><p>
 <b>ACTION PLAN</b> – A document identifying both low cost, short-term, and major capacity improvements necessary to bring a controlled access facility to State Highway System (SHS) standards within 20 years.
-</ul>
+</p></div>
 
-<ul>
+<div class="float-child1"> &nbsp;</div>
+<div class="float-child2"><p>
 <b>ADJUSTED COUNT</b> – An estimate of a traffic statistic calculated from a base traffic count that has been adjusted by application of axle, seasonal, or other defined factors. (AASHTO)
-</ul>
+</p></div>
 
 
 <div class="float-child1">
@@ -51,7 +53,7 @@ output:
 </div>
 
 <div class="float-child2">
-  <b>ANNUAL AVERAGE DAILY TRAFFIC</b> – The total volume of traffic passing a point or segment of a highway facility in both directions for one year divided by the number of days in the year. (HCM)
+  <p><b>ANNUAL AVERAGE DAILY TRAFFIC</b> – The total volume of traffic passing a point or segment of a highway facility in both directions for one year divided by the number of days in the year. (HCM)</p>
 </div>  
 
 <div class="float-child1">
@@ -59,9 +61,9 @@ output:
 </div>
 
 <div class="float-child2">
-  <b>AREA OF INFLUENCE</b>  – The geographical transportation network of state and regionally significant roadway segments on which the proposed project would have impact. <br>
-Note: The term AOI used for Interchange Access Request (IAR) has a more specific definition. Refer to FDOT <a href="https://fdotwww.blob.core.windows.net/sitefinity/docs/default-source/content/planning/systems/programs/sm/intjus/pdfs/fdot_iaurg_january_2018.pdf" target="_blank">Interchange Access Request User’s Guide</a> for more details.<br>
-<b>ARTERIAL</b> – A signalized roadway that primarily serves through-traffic and provides access to abutting properties as a secondary function, having signal spacings of two miles or less and turning movements at intersections that usually do not exceed 20 percent (%) of the total traffic.
+  <p><b>AREA OF INFLUENCE</b>  – The geographical transportation network of state and regionally significant roadway segments on which the proposed project would have impact. <br>
+Note: The term AOI used for Interchange Access Request (IAR) has a more specific definition. Refer to FDOT <a href="https://fdotwww.blob.core.windows.net/sitefinity/docs/default-source/content/planning/systems/programs/sm/intjus/pdfs/fdot_iaurg_january_2018.pdf" target="_blank">Interchange Access Request User’s Guide</a> for more details.<br></p>
+<p><b>ARTERIAL</b> – A signalized roadway that primarily serves through-traffic and provides access to abutting properties as a secondary function, having signal spacings of two miles or less and turning movements at intersections that usually do not exceed 20 percent (%) of the total traffic.</p>
 
 </div>  
 
@@ -73,7 +75,7 @@ Note: The term AOI used for Interchange Access Request (IAR) has a more specific
 </div>
 
 <div class="float-child2">
-  <b>AVERAGE DAILY TRAFFIC</b> – The total traffic volume during a given period in whole days (greater than one day and less than one year) divided by the number of days in that time period. (AASHTO)
+  <p><b>AVERAGE DAILY TRAFFIC</b> – The total traffic volume during a given period in whole days (greater than one day and less than one year) divided by the number of days in that time period. (AASHTO)</p>
 </div> 
 
 
@@ -494,3 +496,4 @@ Note: The term AOI used for Interchange Access Request (IAR) has a more specific
 <p><b>WORK PROGRAM ADMINISTRATION </b>– The five-year listing of all transportation projects planned for each fiscal year by FDOT, as adjusted for the legislatively approved budget for the first year of the program.</p>
 </div>
 
+&nbsp;&nbsp;&nbsp;

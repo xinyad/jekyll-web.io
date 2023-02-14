@@ -8,6 +8,8 @@ output:
     mathjax: "http://example.com/mathjax/MathJax.js?config=TeX-AMS-MML_HTMLorMML"
 
 ---
+
+
 <br>
 <div style="text-align: justify"> The two traffic adjustment factors, Seasonal and Axle Correction, are calculated by
 the TDA Office and can be accessed through either the Traffic Characteristics
@@ -22,6 +24,8 @@ Actual AADT, K, D, and T data are collected from permanent, continuous counters.
 Figure 2-3 shows the process of developing traffic adjustment factors and applying
 them to estimate AADT and other traffic parameters from short-term traffic counts.</div>
 <br>
+
+<!-- <div class="float-child1"><img src="images/important.png"></div> -->
 <span style="color:red">***IMPORTANT NOTE:***</span>
 
 <font size="2">All short-term counts need to be adjusted using Seasonal Factors, but only

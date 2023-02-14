@@ -33,6 +33,8 @@ topnav_dropdowns:
           url: /mydoc_introduction8.html
         - title: Chapter9
           url: /mydoc_introduction9.html
+        - title: Glossary
+          url: /mydoc_glossary.html
        
 
 

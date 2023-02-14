@@ -309,7 +309,9 @@ li.dropdownActive a {
 
 .navbar-header {
     /* position:relative; */
-    left: 42px;
+    left: 35px;
+
+    /* margin-top: 0px; */
 }
 
 .post-content .rssfeedLink {
@@ -1195,7 +1197,8 @@ h4.panel-title {
 
 @media (max-width: 1200px) {
     .navbar-header {
-        float: none;
+        float:none;
+        /* position:sticky; */
     }
     .navbar-left,.navbar-right {
         float: none !important;

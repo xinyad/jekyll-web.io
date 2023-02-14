@@ -14,8 +14,9 @@ traffic monitoring sites used in Florida during 2017 are presented in Figure 2-1
 shown below, the FDOT TDA and district offices collected traffic count and traffic
 factor information at 18,603 sites throughout Florida.</div>
 
-<!-- ### TRAFFIC MONITORING SITES IN FLORIDA -->
-
+### **TRAFFIC MONITORING SITES IN FLORIDA**
+<center><img src="images/fig2_1.png" ></center>
+<div style="text-align:center; color:grey"><i>Figure 2-1 Florida's Traffic Monitoring Sites Used in 2017</i></div> 
 
 
 ### **2.3.1 <span style="color:#0a69bb">Continuous Vehicle Counts</span>**
@@ -43,3 +44,6 @@ part of FDOT&#39;s Vehicle Classification Reporting Program or a special Vehicle
 Classification study. There are currently 13 vehicle classification types ranging from
 motorcycles (Class 1) to Multi-Trailer 7 or more-axle Trucks (Class 13). In addition, TDA
 has a WIM count program which collects vehicle classification and truck weights.</div>
+
+<center><img src="images/fig2_2.png" ></center>
+<div style="text-align:center; color:grey"><i>Figure 2-2 FHWA Vehicle Classification Scheme F</i></div> 

@@ -51,13 +51,13 @@ topnav:
 - title: Topnav
   items:
     - title: Release Note
-      url: /
+      url: /mydoc_release_note.html
     - title: FAQs
-      url: /
+      url: /mydoc_faqs.html
     - title: Addendum
-      url: /
+      url: /mydoc_addendum.html
     - title: Download
-      url: /
+      url: /mydoc_download.html
     - title: Reference
       url: /mydoc_reference.html
 

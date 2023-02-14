@@ -38,10 +38,12 @@ entries:
 
     - title: 1.4 Authority
       url: /mydoc_authority1.html
+      # url: /mydoc_coming_soon.html
       output: web, pdf
 
     - title: 1.5 Truth in Data Principal
       url: /mydoc_truth_data_principal.html
+      # url: /mydoc_coming_soon.html
       output: web, pdf
 
     - title: 1.6 Precision of Data

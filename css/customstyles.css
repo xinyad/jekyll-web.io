@@ -308,7 +308,7 @@ li.dropdownActive a {
 }
 
 .navbar-header {
-    position: fixed;
+    /* position:relative; */
     left: 42px;
 }
 
@@ -1216,7 +1216,7 @@ h4.panel-title {
     }
     .navbar-nav {
         float: none!important;
-        margin-top: 35px;
+        margin-top: 5px;
         /* margin-bottom: px; */
     }
     .navbar-nav>li {

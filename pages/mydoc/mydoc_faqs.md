@@ -9,7 +9,7 @@ folder: mydoc
   li{list-style-type:square;}
 </style>
 
-<h2>General Questions</h2>
+<h2 style="padding-top:36px">General Questions</h2>
 
 <ul>
 <li>What is the purpose of the Project Traffic Forecasting Handbook (PTFH) and who uses the handbook?</li>

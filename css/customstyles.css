@@ -199,7 +199,7 @@ p.post-meta {font-size: 80%; color: #777;}
 
 /* search area */
 #search-demo-container{
-    width: 90px;
+    width: 30px;  /*initial 90px */
 }
 
 #search-demo-container ul#results-container {
@@ -209,6 +209,7 @@ p.post-meta {font-size: 80%; color: #777;}
     position: absolute;
     top: 40px; /* if you change anything about the nav, you'll prob. need to reset the top and left values here.*/
     left: 20px;
+    
     z-index: -1;
     width:80px;
     border-left: 1px solid #dedede;
@@ -308,10 +309,11 @@ li.dropdownActive a {
 }
 
 .navbar-header {
-    /* position:relative; */
-    left: 35px;
+    position: relative;
+    left: -16px;
+    
 
-    /* margin-top: 0px; */
+    
 }
 
 .post-content .rssfeedLink {
@@ -1195,10 +1197,10 @@ h4.panel-title {
 
 /*set navbar breakpoint so that it converts to hamburger earlier */
 
-@media (max-width: 1200px) {
+@media (max-width: 1300px) {    /*initial:1200px*/
     .navbar-header {
         float:none;
-        /* position:sticky; */
+        
     }
     .navbar-left,.navbar-right {
         float: none !important;

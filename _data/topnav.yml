@@ -50,6 +50,8 @@ topnav:
 
 - title: Topnav
   items:
+    - title: Tutorial
+      url: /mydoc_tutorial.html
     - title: Release Note
       url: /mydoc_release_note.html
     - title: FAQs

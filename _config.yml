@@ -115,5 +115,4 @@ description:
 github: [metadata]
 
 
-TimeZone: 'UTC'
-
+TimeZone: america/chicago

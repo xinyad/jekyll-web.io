@@ -1,10 +1,10 @@
 ---
-title: 
+title: FAQs
 sidebar: mydoc_sidebar
 permalink: mydoc_faqs.html
 folder: mydoc
 ---
-
+<br>
 <style>
   li{list-style-type:square;}
 </style>

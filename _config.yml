@@ -3,7 +3,7 @@ repository: XinyaDanI/jekyll-web.io
 output: web
 # this property is useful for conditional filtering of content that is separate from the PDF.
 
-topnav_title: Florida Project Traffic Forecasting Handbook 
+topnav_title: FDOT Project Traffic Forecasting Handbook 
 # this appears on the top navigation bar next to the home button
 
 site_title: 

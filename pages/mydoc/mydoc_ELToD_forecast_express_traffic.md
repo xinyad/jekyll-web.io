@@ -48,7 +48,6 @@ td {
   border-color: #96D4D4;
   /* padding: 8px; */
   /* width: 25%;  */
-
 }
 
 tr:nth-child(even) {
@@ -68,6 +67,7 @@ tr:nth-child(even) {
   <th>Cons</th>
   </tr>
 
+  
   <tr>
   <td colspan=2>Manual Estimation Using Peak Hour O-D</td>
   <td>Sketch-Level</td>

@@ -11,17 +11,10 @@ folder: mydoc
 </style>
 
 <br>
-Managed lanes are a TSM&amp;O solution where highway facilities or sets of lanes within a highway
-facility use management strategies to provide congestion relief. The three primary management
-strategies used are access control, vehicle eligibility, and tolling. When tolling is an option for
-immediate or future use, the managed lane is an express lane. Express Lanes are a type of
-managed lanes where pricing through electronic tolling is applied to lanes. Project traffic
-forecasts for Express Lanes require an additional level of effort compared with the forecasting
-methods provided in this Handbook. If the managed lanes do not incorporate tolling, then this
-chapter is not applicable.
+Managed lanes are a TSM&amp;O solution where highway facilities or sets of lanes within a highway facility use management strategies to provide congestion relief. The three primary management strategies used are access control, vehicle eligibility, and tolling. When tolling is an option for immediate or future use, the managed lane is an express lane. Express Lanes are a type of managed lanes where pricing through electronic tolling is applied to lanes. Project traffic forecasts for Express Lanes require an additional level of effort compared with the forecasting methods provided in this Handbook. If the managed lanes do not incorporate tolling, then this chapter is not applicable.
 
 <div style="background:#D3D3D3">
-<img src="images/noteicon.jpg" style="max-width: 3%; margin-left:5px"><font size = 3>&nbsp;&nbsp;Important Note:</font>
+<img src="images/RedWarning.png" style="max-width: 3%; margin-left:5px"><font size = 3>&nbsp;&nbsp;Important Note:</font>
 <ul>If the managed lanes do not incorporate tolling, then this chapter is not applicable.
 Also, this chapter is not intended for use in traffic and revenue studies.</ul>
 </div>

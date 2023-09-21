@@ -9,7 +9,7 @@ folder: mydoc
   div{text-align: justify;}
 </style>
 
-This Handbook consists of eight (8) chapters and three (3) Appendices:
+This Handbook consists of nine (9) chapters and four (4) Appendices:
 
 <span style="color:grey">**Chapter 1 <span style="color:black">Introduction and Overview</span>**
 

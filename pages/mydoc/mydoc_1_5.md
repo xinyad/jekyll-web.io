@@ -1,0 +1,13 @@
+---
+title: 1.5 Truth in Data Principle
+sidebar: mydoc_sidebar
+permalink: mydoc_1_5.html
+folder: mydoc
+---
+<br>
+
+<style>
+  div{text-align: justify;}
+</style>
+
+The controlling “Truth-in-Data” principle for making project traffic forecasts is to express the sources and uncertainties of the forecast. The goal of the principle is to provide the user with the information needed to make appropriate choices regarding the applicability of the forecast for particular purposes. For the traffic forecaster, this means clearly stating the input assumptions and their sources and providing the forecast in a form that the user can understand and use. For the user (e.g., project designer), this means reviewing the forecast itself and its sources to consider these limitations and traffic details when designing or implementing changes to a transportation facility or network. For example, this could mean compensating for uncertainty in projections of the total axle loading by using a reliability design factor or considering an upcoming new development which may attract a large number of heavy vehicles; thus, larger turning radius may need to be considered when designing the transportation facility.

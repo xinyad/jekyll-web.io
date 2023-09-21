@@ -1,7 +1,7 @@
 ---
 title: Traffic Adjustment Data Factors
 sidebar: mydoc_sidebar
-permalink: mydoc_traffic_adjustment_fac.html
+permalink: mydoc_2_5.html
 folder: mydoc
 output: 
   ioslides_presentation:

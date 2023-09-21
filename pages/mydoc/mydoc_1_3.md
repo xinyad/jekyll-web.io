@@ -1,0 +1,69 @@
+---
+title: Organization
+sidebar: mydoc_sidebar
+permalink: mydoc_1_3.html
+folder: mydoc
+---
+<br>
+
+<style>
+  div{text-align: justify;}
+</style>
+
+This Handbook consists of eight (8) chapters and three (3) Appendices:
+
+<span style="color:grey">**Chapter 1 <span style="color:black">Introduction and Overview</span>**
+
+This chapter outlines the traffic forecasting processes for corridor, project, and ESAL studies and describes general guidelines and techniques to be used in the Project Traffic Forecasting Process.
+
+<span style="color:grey">**Chapter 2 <span style="color:black">Traffic Data Sources and Factors</span>**
+
+This chapter describes the different types of traffic counters in operation, the current traffic data collection methodologies used in the State of Florida, and the estimation and tabulation of: Seasonal Factor (SF), Axle Correction Factor (ACF), estimates of Annual Average Daily Traffic (AADT), K-Factor (K) and Standard K Factor, Directional Distribution Factor (D), and Percent Trucks (T) for the current year.
+
+<span style="color:grey">**Chapter 3 <span style="color:black">Scoping for Project Traffic Forecasting</span>**
+
+This chapter provides guidance on the development of a scope for project traffic forecasting. It covers factors to be considered when preparing a scope, how to determine applicable forecasting methods, how to identify best sources of data, schedule guidelines, and document requirements and deliverables.
+
+<span style="color:grey">**Chapter 4 <span style="color:black">Forecasting with Travel Demand Models</span>**
+
+This chapter provides guidance on the application of models to develop traffic projections for facility specific PD&E studies, corridor studies, and RRR projects. This chapter provides an overview of travel demand models, describes basic model calibration and validation techniques, and discusses the use of model output for traffic forecasting.
+
+<span style="color:grey">**Chapter 5 <span style="color:black">Forecasting Without Travel Demand Models</span>**
+
+This chapter provides a description of the appropriate methods of performing trend analysis and examination of local land use plans, and other indicators of future growth in the project traffic forecasting process.
+
+<span style="color:grey">**Chapter 6 <span style="color:black">Directional Design Hourly Volumes</span>**
+
+This chapter describes the appropriate methods for converting model volume outputs to Annual Average Daily Traffic (AADT) volumes and then into Directional Design Hourly Volumes (DDHVs), which are used in the evaluation of roadway points, links, and facility analyses.
+
+<span style="color:grey">**Chapter 7 <span style="color:black">Estimating Intersection Turning Movements</span>**
+
+The purpose of this chapter is to provide a method for developing balanced turning movement volumes at intersections. The FDOT Turning Movement Tool (TMTool) and TURNS5 Turning Movement Analysis Tool (TURNS5-V2014) spreadsheets are explained in detail and reviews of other techniques are summarized.
+
+<span style="color:grey">**Chapter 8 <span style="color:black">Equivalent Single Axle Load Forecast</span>**
+
+This chapter describes the guidelines and techniques of forecasting Equivalent Single Axle Load (ESAL) volumes for use in pavement design.
+
+<span style="color:grey">**Chapter 9 <span style="color:black">Project Traffic for Corridors with Priced Managed Lanes</span>**
+
+This chapter provides general discussions on unique issues in the Express Lanes project development process and offers guidance on the methodologies and processes for design traffic development.
+
+
+<span style="color:grey"><b>Appendix A</b></span>
+
+<a href="https://pdl.fdot.gov/api/procedures/downloadProcedure/525-030-150">Project Traffic Forecasting Procedure Topic No. 525-030-120</a>
+
+FHWA Approval Letter – Use of Standard K-Factors for Traffic Forecasting in Florida
+FDOT White Paper – Standard K Evaluation
+
+<span style="color:grey"><b>Appendix B</b></span>
+
+References used in the Handbook
+
+<span style="color:grey"><b>Appendix C</b></span>
+
+Glossary – list of terms and definitions used in the Handbook
+
+<span style="color:grey"><b>Appendix D</b></span>
+
+Example of District 2 Manual Method

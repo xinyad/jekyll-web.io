@@ -1,7 +1,7 @@
 ---
 title: ELToD Method for Forecasting Express Lanes Project Traffic
 sidebar: mydoc_sidebar
-permalink: mydoc_ELToD_forecast_express_traffic.html
+permalink: mydoc_9_4.html
 folder: mydoc
 output: 
   ioslides_presentation:
@@ -16,14 +16,7 @@ output:
 </style>
 
 <br>
-The use of a regional travel demand model in combination with the ELToD Static Assignment
-Model is the preferred method to prepare project traffic forecasts for Express Lanes. ELToD is
-a stand-alone application that follows the FSUTMS standards and works in conjunction with all
-Florida’s travel demand models. ELToD was initially calibrated using 2011 data from I-95
-Express Phase 1. Since then, ELToD has been re-validated against observed data in Broward
-County on both I-95 Express Phase 2 and I-595 Express. Florida’s Turnpike Enterprise has
-used ELToD for project traffic forecasting for numerous projects around the state in the South
-Florida, Central Florida, and West Central Florida regions.
+The use of a regional travel demand model <span style="color: #248ec2"><b>in combination with</b></span> the ELToD Static Assignment Model is the preferred method to prepare project traffic forecasts for Express Lanes. ELToD is a stand-alone application that follows the FSUTMS standards and works in conjunction with all Florida’s travel demand models. ELToD was initially calibrated using 2011 data from I-95 Express Phase 1. Since then, ELToD has been re-calibrated against observed data in Broward and Palm Beach Counties on both I-95 Express Phase 1-4 and I-595 Express. Florida’s Turnpike Enterprise has used ELToD for project traffic forecasting for numerous projects around the state in the South Florida, Central Florida, and West Central Florida regions.
 
 
 <style>
@@ -39,13 +32,15 @@ table {
 
 th{
   text-align:center;
-  
+  background-color: #248ec2;
+  color: white
 }
 
 td {
   text-align: left;
   vertical-align: middle;
   border-color: #96D4D4;
+  font-size: 13px;
   /* padding: 8px; */
   /* width: 25%;  */
 }
@@ -60,9 +55,9 @@ tr:nth-child(even) {
 
 <table>
   <tr>
-  <th colspan=2>Method</th>
-  <th>Activity/Project Phase</th>
-  <th>Data Requirements</th>
+  <th colspan=2 tyle="width:7%">Method</th>
+  <th style="width:8%">Activity/Project Phase</th>
+  <th style="width:19%">Data Requirements</th>
   <th>Pros</th>
   <th>Cons</th>
   </tr>
@@ -81,7 +76,7 @@ tr:nth-child(even) {
 
 
   <tr>
-  <td rowspan=2 bgcolor=white style="vertical-align: middle;">Travel Demand Model Based</td>
+  <td rowspan=2 style="width: 4%; vertical-align: middle; background-color:#E34234; color:white; writing-mode:vertical-lr; vertical-align:middle;text-align: center; transform: rotate(-180deg);transform-origin: middle">Travel Demand Model Based</td>
   <td>Regional Travel Demand Model (TDM) with Dynamic Toll Function or VTTS Curve Assignment</td>
   <td>Corridor Panning / PD&amp;E /Design</td>
   <td>- EL Access Points<br>
@@ -276,7 +271,7 @@ direction:
 
 
 For more detailed information about the ELToD Static Assignment Model, please refer to the
-ELToD – User Guide and Documentation. This report can be requested through the Florida’s
+<i>ELToD – User Guide and Documentation</i>. This report can be requested through the Florida’s
 Turnpike Enterprise, Toll Studies &amp; Express Lanes Development Department.
 
 It should be recognized that there have been some research efforts to evaluate the use of

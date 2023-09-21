@@ -1,7 +1,7 @@
 ---
 title: Purpose
 sidebar: mydoc_sidebar
-permalink: mydoc_purpose2.html
+permalink: mydoc_2_2.html
 folder: mydoc
 ---
 <br>

@@ -1,0 +1,97 @@
+---
+title: Precision of Data
+sidebar: mydoc_sidebar
+permalink: mydoc_1_6.html
+folder: mydoc
+---
+
+
+<br>
+
+<style>
+  div{text-align: justify;}
+</style>
+
+To reflect the uncertainty of estimates and forecasts, volumes should be rounded. Practical guidance is to round the volumes according to Table 1-1 Rounding Convention as follows.
+
+<style>
+table {
+  /* border-collapse: collapse; */
+  /* width: 100%; */
+  /* display: table-cell;
+  vertical-align: center; 
+  text-align: center; */
+
+}
+
+
+th{
+  text-align:center;
+  background-color: #248ec2;
+  color: white;
+  vertical-align: center; 
+  text-align: center;
+}
+
+td {
+  text-align: left;
+  vertical-align: middle;
+  border-color: #96D4D4;
+  font-size: 13px;
+  vertical-align: center; 
+  text-align: center;
+  /* padding: 8px; */
+  /* width: 25%;  */
+}
+
+tr:nth-child(even) {
+  background-color:  #EEF2F8;
+}
+</style>
+
+<div style="text-align:center; color:#347DBE; margin:1rem"><i>Table 1-1 Rounding Convention</i></div> 
+
+
+<table style="margin-left:auto;margin-right:auto;">
+  <tr>
+  <th>Forecast Volume</th>
+  <th>Round to Nearest</th>
+
+  </tr>
+
+   <tr>
+  <td> <b> < 100</b></td>
+  <td><b>10</b></td>
+
+  </tr>
+   <tr>
+  <td><b> 100 to 999</b></td>
+  <td><b>50 </b></td>
+  </tr>
+
+  <tr>
+  <td><b>1,000 to 9,999 </b></td>
+  <td><b>100 </b></td> 
+  </tr>
+
+
+  <tr>
+  <td><b>10,000 to 99,999 </b></td>
+  <td><b>500 </b></td> 
+  </tr>
+
+  <tr>
+  
+  <td><b>> 99,999 </b></td>
+  <td><b>1,000 </b></td>
+  
+  </tr>
+</table>
+
+
+
+
+The rounding convention was adapted from AASHTO Guidelines for Traffic Data Programs published in 2009. The convention was revised to be more stringent to address situations where growth is low and future volumes after rounding appear to be the same.
+
+
+

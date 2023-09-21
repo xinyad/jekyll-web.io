@@ -1,7 +1,7 @@
 ---
 title: Project Forecasting Methodology
 sidebar: mydoc_sidebar
-permalink: mydoc_project_forecast_methodology.html
+permalink: mydoc_9_5.html
 folder: mydoc
 ---
 
@@ -25,7 +25,7 @@ and has its unique set of issues and challenges. The tools and methodologies lis
 phase are available options, they can be used individually or jointly to best address the issues.
 The selection should be made based on the purpose and needs of the project, available data
 and tools, time and budget, desired level of accuracy of the forecasts. It should also be noted
-that
+that,
 
 <center>
 <img src="images/fig9_1.png" style="max-width: 70%; text-align:center" >
@@ -34,4 +34,4 @@ that
 <div style="text-align:center; color:grey"><i>Figure9-1 Recommended Project Traffic Forecasting Methodology</i></div> 
 
 <br>
-Depending on the duration and progression of the project, project traffic for Express Lanes may need to be updated if the major assumptions have changed or there are significant changes in travel patterns in the study area. The project team should consult with the District Project Manager to determine the need to update the project traffic.
+depending on the duration and progression of the project, project traffic for Express Lanes may need to be updated if the major assumptions have changed or there are significant changes in travel patterns in the study area. The project team should consult with the District Project Manager to determine the need to update the project traffic.

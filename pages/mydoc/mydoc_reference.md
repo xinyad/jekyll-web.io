@@ -49,8 +49,14 @@ folder: mydoc
 
 <a href="http://teachamerica.com/tih/PDF/nchrp255.pdf">National Cooperative Highway Research Program (NCHRP) Report 255</a>, “Highway Traffic Data for Urbanized Area Project Planning and Design”, Transportation Research Board, December 1982
 
+<a href="http://onlinepubs.trb.org/Onlinepubs/nchrp/nchrp_rpt_277.pdf">National Cooperative Highway Research Program (NCHRP) Report 277</a>, “Portland Cement Concrete Pavement Evaluation System (COPES)”, M. L. Darter, J. M. Becker, M. B. Snyder and R. E. Smith, Transportation Research Board (TRB), September 1985
+
 <a href="https://fdotwww.blob.core.windows.net/sitefinity/docs/default-source/planning/systems/programs/sm/pdfs/travel-estimation-techniques-for-urban-planning-nchrp_report_365.pdf?sfvrsn=3211036a_2">National Cooperative Highway Research Program (NCHRP) Report 365</a>, “Travel Estimation Techniques for Urban Planning”, Transportation Research Board, 1998
+
+
+<a href="https://nap.nationalacademies.org/catalog/14665/travel-demand-forecasting-parameters-and-techniques">National Cooperative Highway Research Program (NCHRP) Report 716</a>, “Travel Demand Forecasting: Parameters and Techniques”, Transportation Research Board, 2012
+
+<a href="https://nap.nationalacademies.org/catalog/22661/long-distance-and-rural-travel-transferable-parameters-for-statewide-travel-forecasting-models">National Cooperative Highway Research Program (NCHRP) Report 735</a>, “Long-Distance and Rural Travel Transferable Parameters for Statewide Travel Forecasting Models”, Transportation Research Board, 2012
 
 <a href="https://www.princeton.edu/~alaink/Orf467F14/AnalyticalTravelForecastingNCHRP765_091314.pdf">National Cooperative Highway Research Program (NCHRP) Report 765</a>, “Analytical Travel Forecasting Approaches for Project-Level Planning and Design”, Transportation Research Board, 2014
 
-<a href="http://onlinepubs.trb.org/Onlinepubs/nchrp/nchrp_rpt_277.pdf">National Cooperative Highway Research Program (NCHRP) Report 277</a>, “Portland Cement Concrete Pavement Evaluation System (COPES)”, M. L. Darter, J. M. Becker, M. B. Snyder and R. E. Smith, Transportation Research Board (TRB), September 1985

@@ -4,7 +4,7 @@ sidebar: mydoc_sidebar
 permalink: mydoc_2_2.html
 folder: mydoc
 ---
-<br>
+
 <div style="text-align: justify"> Traffic data is the foundation of highway transportation planning and is used in
 making numerous decisions. Accurate traffic data is a crucial element in the
 transportation planning process; therefore, uniform understanding and

@@ -3,9 +3,6 @@ title: ELToD Method for Forecasting Express Lanes Project Traffic
 sidebar: mydoc_sidebar
 permalink: mydoc_9_4.html
 folder: mydoc
-output: 
-  ioslides_presentation:
-    mathjax: "http://example.com/mathjax/MathJax.js?config=TeX-AMS-MML_HTMLorMML"
 
 ---
 
@@ -15,14 +12,13 @@ output:
 
 </style>
 
-<br>
 The use of a regional travel demand model <span style="color: #248ec2"><b>in combination with</b></span> the ELToD Static Assignment Model is the preferred method to prepare project traffic forecasts for Express Lanes. ELToD is a stand-alone application that follows the FSUTMS standards and works in conjunction with all Florida’s travel demand models. ELToD was initially calibrated using 2011 data from I-95 Express Phase 1. Since then, ELToD has been re-calibrated against observed data in Broward and Palm Beach Counties on both I-95 Express Phase 1-4 and I-595 Express. Florida’s Turnpike Enterprise has used ELToD for project traffic forecasting for numerous projects around the state in the South Florida, Central Florida, and West Central Florida regions.
 
 
 <style>
 table {
   border-collapse: collapse;
-  width: 100%;
+  /* width: 100%; */
   display: table-cell;
   /* vertical-align: center;  */
   
@@ -33,7 +29,8 @@ table {
 th{
   text-align:center;
   background-color: #248ec2;
-  color: white
+  color: white;
+  vertical-align: middle;
 }
 
 td {
@@ -50,16 +47,16 @@ tr:nth-child(even) {
 }
 </style>
 
-<div style="text-align:center; color:grey"><i>Table 9-1 Express Lanes Project Traffic Forecasting Methods Used in Florida</i></div> 
+<div style="text-align:center; color:grey; margin:1rem"><i>Table 9-1 Express Lanes Project Traffic Forecasting Methods Used in Florida</i></div> 
 
 
 <table>
   <tr>
-  <th colspan=2 tyle="width:7%">Method</th>
+  <th colspan=2 style="width:21%">Method</th>
   <th style="width:8%">Activity/Project Phase</th>
   <th style="width:19%">Data Requirements</th>
   <th>Pros</th>
-  <th>Cons</th>
+  <th style="width:25%">Cons</th>
   </tr>
 
   

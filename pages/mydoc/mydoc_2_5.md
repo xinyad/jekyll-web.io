@@ -10,7 +10,6 @@ output:
 ---
 
 
-<br>
 <div style="text-align: justify"> The two traffic adjustment factors, Seasonal and Axle Correction, are calculated by
 the TDA Office and can be accessed through either the Traffic Characteristics
 Inventory (TCI) database or the Florida Traffic Online (FTO) website

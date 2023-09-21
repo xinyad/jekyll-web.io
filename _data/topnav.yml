@@ -18,21 +18,21 @@ topnav_dropdowns:
         - title: Chapter1
           url: /index.html
         - title: Chapter2
-          url: /mydoc_introduction2.html
+          url: /mydoc_2_1.html
         - title: Chapter3
-          url: /mydoc_introduction3.html
+          url: /mydoc_3_1.html
         - title: Chapter4
-          url: /mydoc_introduction4.html
+          url: /mydoc_4_1.html
         - title: Chapter5
-          url: /mydoc_introduction5.html
+          url: /mydoc_5_1.html
         - title: Chapter6
-          url: /mydoc_introduction6.html
+          url: /mydoc_6_1.html
         - title: Chapter7
-          url: /mydoc_introduction7.html
+          url: /mydoc_7_1.html
         - title: Chapter8
-          url: /mydoc_introduction8.html
+          url: /mydoc_8_1.html
         - title: Chapter9
-          url: /mydoc_introduction9.html
+          url: /mydoc_9_1.html
         - title: Glossary
           url: /mydoc_glossary.html
        
@@ -63,4 +63,3 @@ topnav:
     - title: Reference
       url: /mydoc_reference.html
 
-# Copyright 2021 Google LLC

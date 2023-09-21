@@ -12,7 +12,7 @@ folder: mydoc
   }
 </style>
 
-<br>
+
 <div>The determination of the feasibility of an Express Lanes project and evaluation of alternatives
 for the Express Lanes require a travel demand forecasting tool that is capable of assessing the
 impact of tolling on traffic volumes and patterns. Depending on the complexity of the project or the phases in the project development process, a simple spreadsheet application may suffice.

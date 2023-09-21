@@ -4,7 +4,7 @@ sidebar: mydoc_sidebar
 permalink: mydoc_1_4.html
 folder: mydoc
 ---
-<br>
+
 
 <style>
   div{text-align: justify;}

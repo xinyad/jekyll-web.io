@@ -4,7 +4,7 @@ sidebar: mydoc_sidebar
 permalink: mydoc_2_3.html
 folder: mydoc
 ---
-<br>
+
 <div style="text-align: justify"> The continuous count and classification program is designed to collect vehicular and
 classification traffic counts 24 hours a day throughout the year. The short-term
 seasonal classification program is designed to collect classification counts for a short

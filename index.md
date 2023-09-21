@@ -6,7 +6,7 @@ sidebar: mydoc_sidebar
 permalink: index.html
 
 ---
-<br>
+
 <style>
   div{text-align: justify;}
   .parent{

@@ -5,7 +5,7 @@ permalink: mydoc_9_3.html
 folder: mydoc
 ---
 
-<br>
+
 There are three approaches to forecasting project traffic for Express Lanes:
 
 <style>
@@ -59,7 +59,7 @@ the various forecasting methods.
 
 Manual estimation can be used to quickly approximate the anticipated range in traffic projections for an Express Lanes segment. The manual method is typically suited for sketch level activities on a simplified Express Lanes corridor and is generally not for project traffic forecasting at the PD&E or Design level. Regional travel demand models with customized highway assignment scripting can provide an estimation of Express Lanes demand at the period or daily level. However, the models do not account dynamic pricing fluctuations at the design hour level. In addition, the choice component used to calculate the Express Lanes share typically includes the VTTS and costs but excludes the VOR. Microsimulation models can provide the sensitivity to dynamic pricing but requires specialized scripting to include the VOR and the additional effort to properly calibrate the existing conditions model. As stated earlier, each project’s needs should be evaluated against the various forecasting methods.
 
-<div style="background:#D3D3D3; ">
+<div style="background:#D3D3D3; padding: 0.6rem; margin: 2rem 0">
 <img src="images/RedWarning.png" style="max-width: 3%; margin-left:10px; "><font size = 5><b><i>&nbsp;&nbsp;Important Note:</i></b></font>
 <ul><i>Both ELToD and microsimulation models are only “assignment” models. Neither can be used without appropriate trip tables or O-D matrices produced by either a TDM or observed data with proper expansion to account for future growth.</i></ul>
 </div>

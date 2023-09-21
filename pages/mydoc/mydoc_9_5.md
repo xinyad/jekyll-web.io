@@ -10,7 +10,7 @@ folder: mydoc
     text-align: justify;
   }
 </style>
-<br>
+
 All Express Lanes projects include a forecast process to determine both the corridor demand,
 and the split between general use or general toll lanes and Express Lanes traffic. Project traffic forecasts are initially prepared in the Planning or PD&amp;E phases of the project development
 process. As part of these phases, every effort is made to accommodate any and all project

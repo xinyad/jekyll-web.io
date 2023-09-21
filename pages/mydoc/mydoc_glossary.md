@@ -8,7 +8,7 @@ output:
     mathjax: "http://example.com/mathjax/MathJax.js?config=TeX-AMS-MML_HTMLorMML"
 ---
 
-
+<br>
 <style>
   div{text-align: justify;}
   ul{padding-left: 84px}
@@ -36,7 +36,7 @@ output:
 </style>
 
 
-<br>
+
 <div class="float-child1"> &nbsp;</div>
 <div class="float-child2"><p>
 <b>ACTION PLAN</b> – A document identifying both low cost, short-term, and major capacity improvements necessary to bring a controlled access facility to State Highway System (SHS) standards within 20 years.

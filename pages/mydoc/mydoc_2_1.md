@@ -5,7 +5,7 @@ permalink: mydoc_2_1.html
 folder: mydoc
 ---
 
-<br>
+
 <div style="text-align: justify"> 
 The Florida Department of Transportation (FDOT) collects and stores a broad range
 of traffic data to assist highway engineers in maintaining and designing safe, state-

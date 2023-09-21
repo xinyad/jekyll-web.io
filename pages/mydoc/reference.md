@@ -1,7 +1,7 @@
 ---
 title: Reference
 sidebar: mydoc_sidebar
-permalink: mydoc_reference.html
+permalink: reference.html
 folder: mydoc
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: Coming Soon
 sidebar: mydoc_sidebar
-permalink: mydoc_coming_soon.html
+permalink: coming_soon.html
 folder: mydoc
 ---
 

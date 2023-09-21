@@ -18,23 +18,23 @@ topnav_dropdowns:
         - title: Chapter1
           url: /index.html
         - title: Chapter2
-          url: /mydoc_2_1.html
+          url: /2_1.html
         - title: Chapter3
-          url: /mydoc_3_1.html
+          url: /3_1.html
         - title: Chapter4
-          url: /mydoc_4_1.html
+          url: /4_1.html
         - title: Chapter5
-          url: /mydoc_5_1.html
+          url: /5_1.html
         - title: Chapter6
-          url: /mydoc_6_1.html
+          url: /6_1.html
         - title: Chapter7
-          url: /mydoc_7_1.html
+          url: /7_1.html
         - title: Chapter8
-          url: /mydoc_8_1.html
+          url: /8_1.html
         - title: Chapter9
-          url: /mydoc_9_1.html
+          url: /9_1.html
         - title: Glossary
-          url: /mydoc_glossary.html
+          url: /glossary.html
        
 
 
@@ -51,15 +51,15 @@ topnav:
 - title: Topnav
   items:
     - title: Tutorial
-      url: /mydoc_tutorial.html
+      url: /tutorial.html
     - title: Release Note
-      url: /mydoc_release_note.html
+      url: /release_note.html
     - title: FAQs
-      url: /mydoc_faqs.html
+      url: /faqs.html
     - title: Addendum
-      url: /mydoc_addendum.html
+      url: /addendum.html
     - title: Download
-      url: /mydoc_download.html
+      url: /download.html
     - title: Reference
-      url: /mydoc_reference.html
+      url: /reference.html
 

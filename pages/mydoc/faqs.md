@@ -1,7 +1,7 @@
 ---
 title: FAQs
 sidebar: mydoc_sidebar
-permalink: mydoc_faqs.html
+permalink: faqs.html
 folder: mydoc
 ---
 

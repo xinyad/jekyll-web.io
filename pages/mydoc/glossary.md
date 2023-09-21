@@ -1,7 +1,7 @@
 ---
 title: Glossary
 sidebar: mydoc_sidebar
-permalink: mydoc_glossary.html
+permalink: glossary.html
 folder: mydoc
 output: 
   ioslides_presentation:

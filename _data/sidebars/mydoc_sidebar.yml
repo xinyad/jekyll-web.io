@@ -29,25 +29,25 @@ entries:
       type: homepage
 
     - title: 1.2 Purpose
-      url: /mydoc_1_2.html
+      url: /1_2.html
       output: web, pdf
 
     - title: 1.3 Organization
-      url: /mydoc_1_3.html
+      url: /1_3.html
       output: web, pdf
 
     - title: 1.4 Authority
-      url: /mydoc_1_4.html
+      url: /1_4.html
       # url: /mydoc_coming_soon.html
       output: web, pdf
 
     - title: 1.5 Truth in Data Principal
-      url: /mydoc_1_5.html
+      url: /1_5.html
       # url: /mydoc_coming_soon.html
       output: web, pdf
 
     - title: 1.6 Precision of Data
-      url: /mydoc_1_6.html
+      url: /1_6.html
       output: web, pdf  
 
   - title: 2. Traffic Data Sources and Factors
@@ -55,27 +55,27 @@ entries:
     folderitems:
 
     - title: 2.1 Introduction
-      url: /mydoc_2_1.html
+      url: /2_1.html
       output: web, pdf
 
     - title: 2.2 Purpose
-      url: /mydoc_2_2.html
+      url: /2_2.html
       output: web, pdf
 
     - title: 2.3 Traffic Adjustment Data Sources
-      url: /mydoc_2_3.html
+      url: /2_3.html
       output: web, pdf
 
     - title: 2.4 Short-Term Traffic Counts
-      url: /mydoc_2_4.html
+      url: /2_4.html
       output: web, pdf
 
     - title: 2.5 Traffic Adjustment Factors
-      url: /mydoc_2_5.html
+      url: /2_5.html
       output: web, pdf
 
     - title: 2.6 AADT, K, D and T
-      url: /mydoc_aadt.html
+      url: /2_6.html
       output: web, pdf
 
     - title: 2.7 Existing Traffic Condition Information
@@ -100,27 +100,27 @@ entries:
     folderitems:
 
     - title: 3.1 Introduction
-      url: /mydoc_3_1.html
+      url: /3_1.html
       output: web, pdf
 
     - title: 3.2 Factors to be Considered
-      url: /mydoc_factors_considered.html
+      url: /3_2.html
       output: web, pdf
 
     - title: 3.3 Determine Applicable Forecasting Methods
-      url: /mydoc_forecasting_methods.html
+      url: /3_3.html
       output: web, pdf
 
     - title: 3.4 Identify Available and Needed Data Sources
-      url: /mydoc_available_needed_ds.html
+      url: /3_4.html
       output: web, pdf
 
     - title: 3.5 Schedule Guidelines
-      url: /mydoc_schedule_guidelines.html
+      url: /3_5.html
       output: web, pdf
 
     - title: 3.6 Document Requirements and Deliverables
-      url: /mydoc_doc_req_deli.html
+      url: /3_6.html
       output: web, pdf
 
   - title: 4. Forecasting with Travel Demand Models
@@ -128,35 +128,35 @@ entries:
 
     folderitems:
     - title: 4.1 Introduction
-      url: /mydoc_introduction4.html
+      url: /4_1.html
       output: web, pdf
 
     - title: 4.2 Corridor and Project Traffic Forecasting
-      url: /mydoc_corridor_project_fore.html
+      url: /4_2.html
       output: web, pdf
 
     - title: 4.3 Fundamentals of Travel Demand Models
-      url: /mydoc_fundamentals_travel_demand_mod.html
+      url: /4_3.html
       output: web, pdf
 
     - title: 4.4 Model Calibration and Validation
-      url: /mydoc_model_calibration_validation.html
+      url: /4_4.html
       output: web, pdf
 
     - title: 4.5 Model Assessment and Selection
-      url: /mydoc_model_assessment_selection.html
+      url: /4_5.html
       output: web, pdf
 
     - title: 4.6 Travel Demand Model Development and Application
-      url: /mydoc_travel_demand_dev.html
+      url: /4_6.html
       output: web, pdf
 
     - title: 4.7 Use of Model Outputs in Traffic Forecasting
-      url: /mydoc_outputs_tra_fore.html
+      url: /4_7.html
       output: web, pdf
 
     - title: 4.8 Documentation of Traffic Forecast
-      url: /mydoc_doc_tra_fore.html
+      url: /4_8.html
       output: web, pdf
 
   - title: 5. Forecasting Without a Travel Demand Model
@@ -164,31 +164,31 @@ entries:
 
     folderitems:
     - title: 5.1 Introduction
-      url: /mydoc_introduction5.html
+      url: /5_1.html
       output: web, pdf
 
     - title: 5.2 Purpose
-      url: /mydoc_purpose5.html
+      url: /5_2.html
       output: web, pdf
 
     - title: 5.3 Unconstrained Versus Constrained Demand
-      url: /mydoc_un_constrained_demand.html
+      url: /5_3.html
       output: web, pdf
 
     - title: 5.4 Project Traffic Forecasting Without a Travel Demand Model
-      url: /mydoc_fore_without_demand.html
+      url: /5_4.html
       output: web, pdf
 
     - title: 5.5 Available Resources
-      url: /mydoc_available_resources.html
+      url: /5_5.html
       output: web, pdf
 
     - title: 5.6 Example Traffic Projection for I-10/SR-8 in Columbia County
-      url: /mydoc_example_traffic_proj.html
+      url: /5_6.html
       output: web, pdf
 
     - title: 5.7 Summary
-      url: /mydoc_summary5.html
+      url: /5_7.html
       output: web, pdf
     
 
@@ -197,23 +197,23 @@ entries:
 
     folderitems:
     - title: 6.1 Introduction
-      url: /mydoc_introduction6.html
+      url: /6_1.html
       output: web, pdf
 
     - title: 6.2 Purpose
-      url: /mydoc_.html
+      url: /6_2.html
       output: web, pdf
 
     - title: 6.3 Development of DDHV Volumes from AADT
-      url: /mydoc_.html
+      url: /6_3.html
       output: web, pdf
 
     - title: 6.4 Development of Directional Peak Hour Volumes
-      url: /mydoc_.html
+      url: /6_4.html
       output: web, pdf
 
     - title: 6.5 Use of Design Hour Traffic Volumes
-      url: /mydoc_.html
+      url: /6_5.html
       output: web, pdf
 
  
@@ -227,39 +227,39 @@ entries:
 
     folderitems:
     - title: 7.1 Introduction
-      url: /mydoc_.html
+      url: /7_1.html
       output: web, pdf
 
     - title: 7.2 Purpose
-      url: /mydoc_.html
+      url: /7_.html
       output: web, pdf
 
     - title: 7.3 Background
-      url: /mydoc_.html
+      url: /7_3.html
       output: web, pdf
 
     - title: 7.4 TURNS5-V2014
-      url: /mydoc_.html
+      url: /7_4.html
       output: web, pdf
 
     - title: 7.5 TMTool (New TMTool)
-      url: /mydoc_.html
+      url: /7_5.html
       output: web, pdf
 
     - title: 7.6 Methods in the NCHRP Report 765
-      url: /mydoc_.html
+      url: /7_6.html
       output: web, pdf
 
     - title: 7.7 Manual Method
-      url: /mydoc_.html
+      url: /7_7.html
       output: web, pdf
 
     - title: 7.8 Summary of Technique
-      url: /mydoc_.html
+      url: /7_8.html
       output: web, pdf
 
     - title: 7.9 Turning Movement Volumes Schematics
-      url: /mydoc_.html
+      url: /7_9.html
       output: web, pdf
 
   - title: 8. Equivalent Single Axle Load (ESAL) Forecasting
@@ -267,31 +267,31 @@ entries:
 
     folderitems:
     - title: 8.1 Introduction
-      url: /mydoc_.html
+      url: /8_1.html
       output: web, pdf
 
     - title: 8.2 Purpose
-      url: /mydoc_.html
+      url: /8_2.html
       output: web, pdf
 
     - title: 8.3 ESAL Forecasting Process
-      url: /mydoc_.html
+      url: /8_3.html
       output: web, pdf
 
     - title: 8.4 Truck Forecasting Process
-      url: /mydoc_.html
+      url: /8_4.html
       output: web, pdf
 
     - title: 8.5 Design Requirements
-      url: /mydoc_.html
+      url: /8_5.html
       output: web, pdf
 
     - title: 8.6 Steps for Producing 18-KIP ESALS (New 18KIP ESAL Sheets)
-      url: /mydoc_.html
+      url: /8_6.html
       output: web, pdf
 
     - title: 8.7 Summary
-      url: /mydoc_.html
+      url: /8_7.html
       output: web, pdf
 
 
@@ -301,23 +301,23 @@ entries:
     folderitems:
 
     - title: 9.1 Introduction
-      url: /mydoc_9_1.html
+      url: /9_1.html
       output: web, pdf
 
     - title: 9.2 Travel Demand Forecasting for Express Lanes
-      url: /mydoc_9_2.html
+      url: /9_2.html
       output: web, pdf
 
     - title: 9.3 Methods for Forecasting Express Lanes Project Traffic
-      url: /mydoc_9_3.html
+      url: /9_3.html
       output: web, pdf
 
     - title: 9.4 ELToD Method for Forecasting Express Lanes Project Traffic
-      url: /mydoc_9_4.html
+      url: /9_4.html
       output: web, pdf
 
     - title: 9.5 Project Forecasting Methodology
-      url: /mydoc_9_5.html
+      url: /9_5.html
       output: web, pdf
 
   - title: Glossary
@@ -326,7 +326,7 @@ entries:
     folderitems:
 
     - title: Glossary
-      url: /mydoc_glossary.html
+      url: /glossary.html
       output: web, pdf
 
 

@@ -137,6 +137,19 @@ li.sidebarTitle {
     font-style: italic;
 }
 
+.ul-circle ul li{ 
+    list-style:circle;
+    margin-left: 2rem;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.ul-square ul li{ 
+    list-style:square;
+    margin-left: 2rem;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
 .italic-dark-blue{
     font-style: italic;
     color:#347DBE;

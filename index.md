@@ -11,6 +11,7 @@ permalink: index.html
   div{text-align: justify;}
   .parent{
     display: inline-block;
+    margin-bottom: 1rem;
   }
   .child1{
     text-align:center;
@@ -50,6 +51,6 @@ Project traffic forecasting plays an integral role in the project development pr
 
 <div class="parent">
     <div class="child1"><div style="background:#20a3d3; color:white; font-weight: bold; padding:0.5rem 2.7rem 0.5rem 2.7rem; text-align:center">ESAL</div></div>
-    The 18-KIP ESAL Forecasting Process is required for the pavement design for new construction, reconstruction, and RRR projects that require a structural loading forecast.  The 18-KIP ESAL Forecasting Process is required for the pavement design for new construction, reconstruction, and RRR projects that require a structural loading forecast.  The 18-KIP ESAL Forecasting Process is required for the pavement design for new construction, reconstruction, and RRR projects that require a structural loading forecast.  The 18-KIP ESAL Forecasting Process is required for the pavement design for new construction, reconstruction, and RRR projects that require a structural loading forecast.
+    The 18-KIP ESAL Forecasting Process is required for the pavement design for new construction, reconstruction, and RRR projects that require a structural loading forecast.
 </div>
 

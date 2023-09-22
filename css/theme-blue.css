@@ -125,3 +125,20 @@ li.sidebarTitle {
 .navbar-inverse .navbar-toggle {
     border-color: #015CAE;
 }
+
+.subtitle-3{
+    color: #20a3d3;
+    font-weight: bold;
+}
+
+.subtitle-4{
+    color:#015CAE;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.italic-dark-blue{
+    font-style: italic;
+    color:#347DBE;
+}
+

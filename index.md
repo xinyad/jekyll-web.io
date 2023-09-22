@@ -13,16 +13,20 @@ permalink: index.html
     display: inline-block;
   }
   .child1{
+    text-align:center;
     display: grid;
-    margin-top: 0.5%;
+    /* position: relative; */
+    margin-top: 0.6rem;
+    margin-right: 1%;
     float: left;
-    width: 13%;
+    /* width: 12%; */
+    /* padding: 2rem 2rem; */
   }
   .child2{
-    display: grid;
+    /* display: grid;
     padding-left: 2rem;
     width:86%;
-    float: right;
+    float: right; */
   }
 </style>
 
@@ -35,17 +39,17 @@ Project traffic forecasting plays an integral role in the project development pr
 
 
 <div class="parent">
-    <div class="child1"><div style="background:#20a3d3; color:white; font-weight: bold; padding:1%; text-align:center">CORRIDOR</div></div>
+    <div class="child1"><div style="background:#20a3d3; color:white; font-weight: bold; padding:0.5rem 0.5rem 0.5rem 0.5rem; text-align:center">CORRIDOR</div></div>
     <div class="child2">Corridor projects usually require the development of traffic projections that are used to make decisions with important capacity and capital investment implications. The Corridor Traffic Forecasting is required before establishing a new alignment or widening of an existing facility.</div>
 </div>
 
 <div class="parent">
-    <div class="child1"><div style="background:#20a3d3; color:white; font-weight: bold; padding:1%; text-align:center">PROJECT</div></div>
+    <div class="child1"><div style="background:#20a3d3; color:white; font-weight: bold; padding:0.5rem 1.1rem 0.5rem 1.1rem; text-align:center">PROJECT</div></div>
     <div class="child2">The Project Traffic projections are commonly used to develop lane configuration requirements for intersection designs, and to evaluate the operational efficiency of proposed improvements. Project Traffic Forecasting is also required for reconstruction, resurfacing, lane addition, bridge replacement, new roadway projects, and major intersection improvements. This process differs from Corridor Traffic Forecasting because it is site specific and covers a limited geographic area.</div>
 </div>
 
 <div class="parent">
-    <div class="child1"><div style="background:#20a3d3; color:white; font-weight: bold; padding:1%; text-align:center">ESAL</div></div>
-    <div class="child2">The 18-KIP ESAL Forecasting Process is required for the pavement design for new construction, reconstruction, and RRR projects that require a structural loading forecast.</div>
+    <div class="child1"><div style="background:#20a3d3; color:white; font-weight: bold; padding:0.5rem 2.7rem 0.5rem 2.7rem; text-align:center">ESAL</div></div>
+    The 18-KIP ESAL Forecasting Process is required for the pavement design for new construction, reconstruction, and RRR projects that require a structural loading forecast.  The 18-KIP ESAL Forecasting Process is required for the pavement design for new construction, reconstruction, and RRR projects that require a structural loading forecast.  The 18-KIP ESAL Forecasting Process is required for the pavement design for new construction, reconstruction, and RRR projects that require a structural loading forecast.  The 18-KIP ESAL Forecasting Process is required for the pavement design for new construction, reconstruction, and RRR projects that require a structural loading forecast.
 </div>
 

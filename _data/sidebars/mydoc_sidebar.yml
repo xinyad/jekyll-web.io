@@ -79,19 +79,23 @@ entries:
       output: web, pdf
 
     - title: 2.7 Existing Traffic Condition Information
-      url: /mydoc_existing_traffic_con.html
+      url: /2_7.html
       output: web, pdf
 
     - title: 2.8 Level of Service(LOS) Analysis
-      url: /mydoc_los_analysis.html
+      url: /2_8.html
       output: web, pdf
 
     - title: 2.9 Number of Lanes Required
-      url: /mydoc_num_lanes.html
+      url: /2_9.html
       output: web, pdf
 
     - title: 2.10 Estimation of AADT From Short-Term Traffic Counts
-      url: /mydoc_num_lanes.html
+      url: /2_10.html
+      output: web, pdf
+
+    - title: 2.11	Application of “Big Data” for Traffic Data Analysis
+      url: /2_11.html
       output: web, pdf
 
 

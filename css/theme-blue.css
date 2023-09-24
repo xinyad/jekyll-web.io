@@ -137,6 +137,10 @@ li.sidebarTitle {
     font-style: italic;
 }
 
+u { 
+    text-decoration: underline;
+  }
+
 .ul-circle ul li{ 
     list-style:circle;
     margin-left: 2rem;
@@ -153,5 +157,12 @@ li.sidebarTitle {
 .italic-dark-blue{
     font-style: italic;
     color:#347DBE;
+}
+
+.italic-grey{
+    font-style: italic;
+    color: grey;
+    text-align: center;
+    padding: 0.5rem 0 0.8rem 0;
 }
 

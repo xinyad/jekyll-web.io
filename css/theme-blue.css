@@ -144,8 +144,8 @@ u {
 .ul-circle ul li{ 
     list-style:circle;
     margin-left: 2rem;
-    margin-top: 0;
-    margin-bottom: 0;
+    margin-top: 0.2rem;
+    margin-bottom: 0.2rem;
 }
 .ul-square ul li{ 
     list-style:square;

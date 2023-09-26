@@ -17,7 +17,7 @@ permalink: index.html
     text-align:center;
     display: grid;
     /* position: relative; */
-    margin-top: 0.6rem;
+    margin-top: 0.4rem;
     margin-right: 1%;
     float: left;
     /* width: 12%; */

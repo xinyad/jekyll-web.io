@@ -107,7 +107,7 @@ entries:
       url: /3_1.html
       output: web, pdf
 
-    - title: 3.2 Factors to be Considered
+    - title: 3.2 Factors to be Considered in the Scoping Process
       url: /3_2.html
       output: web, pdf
 
@@ -123,7 +123,7 @@ entries:
       url: /3_5.html
       output: web, pdf
 
-    - title: 3.6 Document Requirements and Deliverables
+    - title: 3.6 Suggested Documentation and Deliverables
       url: /3_6.html
       output: web, pdf
 
@@ -290,7 +290,7 @@ entries:
       url: /8_5.html
       output: web, pdf
 
-    - title: 8.6 Steps for Producing 18-KIP ESALS (New 18KIP ESAL Sheets)
+    - title: 8.6 Steps for Producing 18-KIP ESALS
       url: /8_6.html
       output: web, pdf
 

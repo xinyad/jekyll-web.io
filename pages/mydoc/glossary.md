@@ -8,7 +8,6 @@ output:
     mathjax: "http://example.com/mathjax/MathJax.js?config=TeX-AMS-MML_HTMLorMML"
 ---
 
-<br>
 <style>
   div{text-align: justify;}
   ul{padding-left: 84px}

@@ -127,7 +127,7 @@ li.sidebarTitle {
 }
 
 .subtitle-3{
-    color: #20a3d3;
+    color: #009dd6;
     font-weight: bold;
 }
 
@@ -164,5 +164,9 @@ u {
     color: grey;
     text-align: center;
     padding: 0.4rem 0 0.8rem 0;
+}
+
+.equation{
+    text-align: left;
 }
 

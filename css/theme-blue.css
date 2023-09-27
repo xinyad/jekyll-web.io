@@ -150,8 +150,8 @@ u {
 .ul-square ul li{ 
     list-style:square;
     margin-left: 2rem;
-    margin-top: 0;
-    margin-bottom: 0;
+    margin-top: 0.3rem;
+    margin-bottom: 0.3rem;
 }
 
 .italic-dark-blue{

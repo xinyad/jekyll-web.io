@@ -235,7 +235,7 @@ entries:
       output: web, pdf
 
     - title: 7.2 Purpose
-      url: /7_.html
+      url: /7_2.html
       output: web, pdf
 
     - title: 7.3 Background

@@ -106,20 +106,13 @@ As stated in Part 1 Section 4.2.2 of the <a href="https://www.fdot.gov/environme
 </div>
 
 
-<div class="faq" onclick="toggleAnswer('answer9')">When would project traffic be considered to be too old?</div>
+<div class="faq" onclick="toggleAnswer('answer9')">What traffic should be used for a project that has an interim phase?</div>
 <div class="answer" id="answer9">
-In general, it's recommended to use the most recent and relevant traffic data available for project analysis. Project traffic data can become outdated over time, and determining when it is considered "too old" depends on several factors, including the purpose of the data, the land use change in the area, and the specific project or analysis in question. When using older data, it's important to acknowledge its limitations and consider the potential need for adjustments or validation to account for changes in traffic patterns over time.<div style="margin:0.6rem 0"></div>
-As stated in Part 1 Section 4.2.2 of the <a href="https://www.fdot.gov/environment/pubs/pdeman/pdeman-current" target="_blank">PD&E Manual</a>, effective July 1, 2023, the planning product being adopted into the NEPA analysis was approved within the 5-year period ending on the date on which the information is adopted or incorporated by reference.
-</div>
-
-
-<div class="faq" onclick="toggleAnswer('answer10')">What traffic should be used for a project that has an interim phase?</div>
-<div class="answer" id="answer10">
 As outlined in <a href="https://xinyadani.github.io/jekyll-web.io/4_7.html" target="_blank">Section 4.7</a>, the traffic for interim phase can be obtained from model outputs in the developed interim phase land use and network scenarios. If the interim phase is defined as a year between the opening year and the design year without project changes, the interim phase traffic can be developed by interpolating between the opening year and design year traffic.
 </div>
 
-<div class="faq" onclick="toggleAnswer('answer11')">Is the methodology for developing project traffic for a project with managed lanes similar to traditional methods?</div>
-<div class="answer" id="answer11">
+<div class="faq" onclick="toggleAnswer('answer10')">Is the methodology for developing project traffic for a project with managed lanes similar to traditional methods?</div>
+<div class="answer" id="answer10">
 Project traffic forecasts for managed lanes require an additional level of effort compared with the traditional forecasting methods provided in this Handbook. Please refer to Chapter 9 for project traffic for tolled managed lanes. In addition, FDOT has developed a Managed Lanes Guidebook to provide guidance on the planning and implementation processes of managed lanes projects and associated technical, organizational, and outreach requirements. The intent of <a href="https://xinyadani.github.io/jekyll-web.io/9_1.html" target="_blank">Chapter 9</a> is to supplement the <a href="https://fdotwww.blob.core.windows.net/sitefinity/docs/default-source/planning/systems/systems-management/document-repository/managed-lanes/mlg-2023-final_feb-2023_online.pdf?sfvrsn=c85fd183_2" target="_blank">FDOT Managed Lanes Guidebook</a> and provide additional guidance on the development of project traffic during the project development process for Express Lanes. This chapter is not intended for use in traffic and revenue studies.
 </div>
 <br>
@@ -127,26 +120,32 @@ Project traffic forecasts for managed lanes require an additional level of effor
 
 <div style="color:#009dd6; font-size:25px;">Technical Questions</div>
 
-<div class="faq" onclick="toggleAnswer('answer12')">Which locations are included in the Weigh-In-Motion (WIM) count program?</div>
-<div class="answer" id="answer12">
+<div class="faq" onclick="toggleAnswer('answer11')">Which locations are included in the Weigh-In-Motion (WIM) count program?</div>
+<div class="answer" id="answer11">
 The WIM locations can be found on the Florida Traffic Online (FTO) website by selecting the layer of WIM Locations. Additional information is provided in the following link:<div style="margin:0.6rem 0"></div>
 <a href="https://www.fdot.gov/mcsaw/weighstationlisting.shtm" target="_blank">https://www.fdot.gov/mcsaw/weighstationlisting.shtm</a>
 </div>
 
-<div class="faq" onclick="toggleAnswer('answer13')">How is the project traffic developed for a new corridor?</div>
-<div class="answer" id="answer13">
+<div class="faq" onclick="toggleAnswer('answer12')">How is the project traffic developed for a new corridor?</div>
+<div class="answer" id="answer12">
 As stated in <a href="https://xinyadani.github.io/jekyll-web.io/4_2.html" target="_blank">Section 4.2.1</a>, the traffic forecasting for a new corridor or improving existing facilities follows the seven-step corridor traffic forecasting process shown in <a href="https://xinyadani.github.io/jekyll-web.io/4_2.html" target="_blank">Figure 4-1</a>. Utilizing travel demand models to simulate traffic patterns on the new corridor involves developing a model scenario that represents the anticipated traffic flow, considering the roadway's design and surrounding land uses. Please refer to <a href="https://xinyadani.github.io/jekyll-web.io/4_7.html" target="_blank">Section 4.7.2</a> for reasonableness checks on future year forecasts and <a href="https://xinyadani.github.io/jekyll-web.io/5_4.html" target="_blank">Section 5.4</a> for DDHV development on a new facility.
 </div>
 
-<div class="faq" onclick="toggleAnswer('answer14')">Where can I find the appropriate factors for adjusting historical traffic counts?</div>
-<div class="answer" id="answer14">
+<div class="faq" onclick="toggleAnswer('answer13')">Where can I find the appropriate factors for adjusting historical traffic counts?</div>
+<div class="answer" id="answer13">
 Historical traffic counts are typically used to establish traffic growth trends. There are no specific factors for adjusting historical traffic counts if the count data obtained from the FTO website is already AADTs. Otherwise, please refer to <a href="https://xinyadani.github.io/jekyll-web.io/2_5.html" target="_blank">Section 2.5.1</a> for converting ADT to AADT. Additional checks may be conducted to see if the count data is computed (field collected) or estimated due to various reasons that the data collection could not be performed for the specific year(s), or if the count data had experienced significant impacts such as the COVID-19 pandemic.
 </div>
 
-<div class="faq" onclick="toggleAnswer('answer15')">When do you apply axle correction factors?</div>
+<div class="faq" onclick="toggleAnswer('answer14')">When do you apply axle correction factors?</div>
+<div class="answer" id="answer14">
+Axle correction factors (ACF) are applied in traffic data that records axle-based information. Please refer to <a href="https://xinyadani.github.io/jekyll-web.io/2_4.html" target="_blank">Section 2.4.2</a> for the application of ACF.
+</div>
+
+<div class="faq" onclick="toggleAnswer('answer15')">What is the source for seasonal and axle factors?</div>
 <div class="answer" id="answer15">
 As stated in <a href="https://xinyadani.github.io/jekyll-web.io/2_4.html" target="_blank">Sections 2.4.1 and 2.4.2</a>, Seasonal Factor Category is determined by using traffic data collected from permanent count location to develop monthly seasonal factor and weekly factor. ACF are determined by using the data from continuous and short-term classification counts following the guidelines as described in the <a href="https://www.fhwa.dot.gov/policyinformation/tmguide/" target="_blank">FHWA Traffic Monitoring Guide</a>. The seasonal and axle factors can be downloaded from the FTO website by selecting the Traffic Reports in terms of Peak Season Factor Category and Weekly Axle Factor Category. More details of using the reports are included in <a href="https://xinyadani.github.io/jekyll-web.io/2_9.html" target="_blank">Sections 2.9.1 and 2.9.2</a>.
 </div>
+
 
 <div class="faq" onclick="toggleAnswer('answer16')">When to use Peak Season Conversion Factor (PSCF) and seasonal factors?</div>
 <div class="answer" id="answer16">

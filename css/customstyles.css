@@ -337,6 +337,7 @@ a.accordion-toggle, a.accordion-collapsed {
 /* navgoco sidebar styles (customized) */
 .nav, .nav ul, .nav li {
     list-style: none;
+    text-align: left;
 }
 
 .nav ul {
@@ -886,7 +887,7 @@ span.soft {
     }
 }
 
-@media (max-width: 990px) {
+@media (max-width: 1200px) {
     #mysidebar {
         position: relative;
     }

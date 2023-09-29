@@ -43,7 +43,7 @@ folder: mydoc
 <div style="color:#009dd6; font-size:25px">General Questions</div>
 <div class="faq" onclick="toggleAnswer('answer1')">What is the purpose of the Project Traffic Forecasting Handbook (PTFH) and who uses the handbook?</div>
 <div class="answer" id="answer1">
-As stated in <a href="https://xinyadani.github.io/jekyll-web.io/1_2.html" target="_blank">Section 1.2</a>, the purpose of the PTFH is to describe policies and procedures accepted by the FDOT and offer guidelines on principles and techniques for preparing project traffic required by various stages of the project development process. The objective is to help standardize the traffic forecasting process that will result in consistent and defendable project traffic on all applicable transportation projects.<br>
+As stated in <a href="https://xinyadani.github.io/jekyll-web.io/1_2.html" target="_blank">Section 1.2</a>, the purpose of the PTFH is to describe policies and procedures accepted by the FDOT and offer guidelines on principles and techniques for preparing project traffic required by various stages of the project development process. The objective is to help standardize the traffic forecasting process that will result in consistent and defendable project traffic on all applicable transportation projects.<div style="margin:0.6rem 0"></div>
 
 As for who uses the handbook, the intended audience is transportation engineers and planners who develop project traffic for various highway projects for FDOT and its partner agencies in the state of Florida. This Handbook may be used by local governments and other agencies to review, accept, or approve project traffic developed for highway projects within their jurisdictions.
 </div>
@@ -82,33 +82,33 @@ As stated in <a href="https://xinyadani.github.io/jekyll-web.io/1_2.html" target
 
 <div class="faq" onclick="toggleAnswer('answer5')">Is there any training offered on how to use the Handbook?</div>
 <div class="answer" id="answer5">
-Please visit the following website to check the available trainings and webinars offered the Systems Implementation Office:<br>
+Please visit the following website to check the available trainings and webinars offered the Systems Implementation Office:<div style="margin:0.6rem 0"></div>
 <a href="https://www.fdot.gov/planning/systems/systems-management/trainings-webinars" target="_blank">https://www.fdot.gov/planning/systems/systems-management/trainings-webinars</a>
 </div>
 
 <div class="faq" onclick="toggleAnswer('answer6')">Who should be contacted if there are technical questions regarding the Handbook?</div>
 <div class="answer" id="answer6">
-Please contact the FDOT Systems Implementation Office and the contact information is provided on the following website:<br>
+Please contact the FDOT Systems Implementation Office and the contact information is provided on the following website:<div style="margin:0.6rem 0"></div>
 <a href="https://www.fdot.gov/planning/systems/Systems-Management.shtm" target="_blank">https://www.fdot.gov/planning/systems/Systems-Management.shtm</a>
 </div>
 
 <div class="faq" onclick="toggleAnswer('answer7')">Is there a website to download Traffic Trend Analysis, TURNS, TMTool, and 18 KIP spreadsheets?</div>
 <div class="answer" id="answer7">
-Yes, the spreadsheets can be downloaded from the following website:<br>
-<a href="https://www.fdot.gov/planning/systems/systems-management/systems-management-documents" target="_blank">https://www.fdot.gov/planning/systems/systems-management/systems-management-documents</a><br>
+Yes, the spreadsheets can be downloaded from the following website:<div style="margin:0.6rem 0"></div>
+<a href="https://www.fdot.gov/planning/systems/systems-management/systems-management-documents" target="_blank">https://www.fdot.gov/planning/systems/systems-management/systems-management-documents</a><div style="margin:0.6rem 0"></div>
 Also, the download link is included in the PTFH chapters to introduce these tools.
 </div>
 
 <div class="faq" onclick="toggleAnswer('answer8')">When would project traffic be considered to be too old?</div>
 <div class="answer" id="answer8">
-In general, it's recommended to use the most recent and relevant traffic data available for project analysis. Project traffic data can become outdated over time, and determining when it is considered "too old" depends on several factors, including the purpose of the data, the land use change in the area, and the specific project or analysis in question. When using older data, it's important to acknowledge its limitations and consider the potential need for adjustments or validation to account for changes in traffic patterns over time.<br>
+In general, it's recommended to use the most recent and relevant traffic data available for project analysis. Project traffic data can become outdated over time, and determining when it is considered "too old" depends on several factors, including the purpose of the data, the land use change in the area, and the specific project or analysis in question. When using older data, it's important to acknowledge its limitations and consider the potential need for adjustments or validation to account for changes in traffic patterns over time.<div style="margin:0.6rem 0"></div>
 As stated in Part 1 Section 4.2.2 of the <a href="https://www.fdot.gov/environment/pubs/pdeman/pdeman-current" target="_blank">PD&E Manual</a>, effective July 1, 2023, the planning product being adopted into the NEPA analysis was approved within the 5-year period ending on the date on which the information is adopted or incorporated by reference.
 </div>
 
 
 <div class="faq" onclick="toggleAnswer('answer9')">When would project traffic be considered to be too old?</div>
 <div class="answer" id="answer9">
-In general, it's recommended to use the most recent and relevant traffic data available for project analysis. Project traffic data can become outdated over time, and determining when it is considered "too old" depends on several factors, including the purpose of the data, the land use change in the area, and the specific project or analysis in question. When using older data, it's important to acknowledge its limitations and consider the potential need for adjustments or validation to account for changes in traffic patterns over time.<br>
+In general, it's recommended to use the most recent and relevant traffic data available for project analysis. Project traffic data can become outdated over time, and determining when it is considered "too old" depends on several factors, including the purpose of the data, the land use change in the area, and the specific project or analysis in question. When using older data, it's important to acknowledge its limitations and consider the potential need for adjustments or validation to account for changes in traffic patterns over time.<div style="margin:0.6rem 0"></div>
 As stated in Part 1 Section 4.2.2 of the <a href="https://www.fdot.gov/environment/pubs/pdeman/pdeman-current" target="_blank">PD&E Manual</a>, effective July 1, 2023, the planning product being adopted into the NEPA analysis was approved within the 5-year period ending on the date on which the information is adopted or incorporated by reference.
 </div>
 
@@ -122,15 +122,14 @@ As outlined in <a href="https://xinyadani.github.io/jekyll-web.io/4_7.html" targ
 <div class="answer" id="answer11">
 Project traffic forecasts for managed lanes require an additional level of effort compared with the traditional forecasting methods provided in this Handbook. Please refer to Chapter 9 for project traffic for tolled managed lanes. In addition, FDOT has developed a Managed Lanes Guidebook to provide guidance on the planning and implementation processes of managed lanes projects and associated technical, organizational, and outreach requirements. The intent of <a href="https://xinyadani.github.io/jekyll-web.io/9_1.html" target="_blank">Chapter 9</a> is to supplement the <a href="https://fdotwww.blob.core.windows.net/sitefinity/docs/default-source/planning/systems/systems-management/document-repository/managed-lanes/mlg-2023-final_feb-2023_online.pdf?sfvrsn=c85fd183_2" target="_blank">FDOT Managed Lanes Guidebook</a> and provide additional guidance on the development of project traffic during the project development process for Express Lanes. This chapter is not intended for use in traffic and revenue studies.
 </div>
+<br>
 
 
-
-
-<div style="color:#009dd6; font-size:25px">Technical Questions</div>
+<div style="color:#009dd6; font-size:25px;">Technical Questions</div>
 
 <div class="faq" onclick="toggleAnswer('answer12')">Which locations are included in the Weigh-In-Motion (WIM) count program?</div>
 <div class="answer" id="answer12">
-The WIM locations can be found on the Florida Traffic Online (FTO) website by selecting the layer of WIM Locations. Additional information is provided in the following link:<br>
+The WIM locations can be found on the Florida Traffic Online (FTO) website by selecting the layer of WIM Locations. Additional information is provided in the following link:<div style="margin:0.6rem 0"></div>
 <a href="https://www.fdot.gov/mcsaw/weighstationlisting.shtm" target="_blank">https://www.fdot.gov/mcsaw/weighstationlisting.shtm</a>
 </div>
 
@@ -156,9 +155,9 @@ Seasonal Factors (SF) are used to convert an average weekday 24-hour traffic cou
 
 <div class="faq" onclick="toggleAnswer('answer17')">How should I address outliers in traffic counts when establishing the traffic growth trend?</div>
 <div class="answer" id="answer17">
-Addressing outliers in traffic counts is essential when establishing a traffic growth trend to ensure that the trend accurately reflects the typical traffic patterns. Here are recommendations to address outliers:<br>
-1. Identify Outliers: start by identifying outliers in the traffic count data. Outliers are data points that significantly deviate from the overall trend or pattern. Common techniques for identifying outliers include visual inspection of data plots, statistical methods, and automated outlier detection algorithms.<br>
-2. Understand the Source of Outliers: investigate the reasons behind the outliers. Outliers can result from various factors, such as data collection errors, equipment malfunctions, extreme weather events, accidents, construction, or special events. Understanding the source of outliers is crucial for deciding how to address them.<br>
+Addressing outliers in traffic counts is essential when establishing a traffic growth trend to ensure that the trend accurately reflects the typical traffic patterns. Here are recommendations to address outliers:<div style="margin:0.6rem 0"></div>
+1. Identify Outliers: start by identifying outliers in the traffic count data. Outliers are data points that significantly deviate from the overall trend or pattern. Common techniques for identifying outliers include visual inspection of data plots, statistical methods, and automated outlier detection algorithms.<div style="margin:0.6rem 0"></div>
+2. Understand the Source of Outliers: investigate the reasons behind the outliers. Outliers can result from various factors, such as data collection errors, equipment malfunctions, extreme weather events, accidents, construction, or special events. Understanding the source of outliers is crucial for deciding how to address them.<div style="margin:0.6rem 0"></div>
 3. Statistical Methods: consider applying statistical methods to handle outliers, such as replacing outliers with the nearest non-outlying values, removing a fixed percentage of the most extreme outliers from the dataset.
 </div>
 
@@ -179,13 +178,13 @@ As mentioned in Section 4.2.3, in many cases, the model base year is different f
 
 <div class="faq" onclick="toggleAnswer('answer21')">How to balance the estimated intersection turning movements along the study corridor?</div>
 <div class="answer" id="answer21">
-Manually balancing the estimated intersection turning movements can be time and labor intensive and presents challenge with review and quality control, especially with large project areas. It is recommended that count data be adjusted and balanced between upstream and downstream locations using Excel spreadsheets or other tools that can help with review and quality control. There are several methods considered for balancing: split the difference between intersections, higher volume distributed to all movements, higher volume distributed to through movements, spreadsheet link volume forcing, and a combination of all or some of the other methods. In addition, Synchro can be used as a tool for intersection turning movements balancing, especially along arterial corridors where signal timing and other traffic analyses are being conducted. Synchro can display the traffic volume imbalance along a link, which can help expedite the balancing process.<br>
+Manually balancing the estimated intersection turning movements can be time and labor intensive and presents challenge with review and quality control, especially with large project areas. It is recommended that count data be adjusted and balanced between upstream and downstream locations using Excel spreadsheets or other tools that can help with review and quality control. There are several methods considered for balancing: split the difference between intersections, higher volume distributed to all movements, higher volume distributed to through movements, spreadsheet link volume forcing, and a combination of all or some of the other methods. In addition, Synchro can be used as a tool for intersection turning movements balancing, especially along arterial corridors where signal timing and other traffic analyses are being conducted. Synchro can display the traffic volume imbalance along a link, which can help expedite the balancing process.<div style="margin:0.6rem 0"></div>
 As specified in Section 5.8 Quality Assurance of <a href="https://fdotwww.blob.core.windows.net/sitefinity/docs/default-source/planning/systems/systems-management/document-repository/traffic-analysis/traffic-analysis-handbook_05-2021.pdf?sfvrsn=cecdd23b_2" target="_blank">2021 FDOT Traffic Analysis Handbook</a>, a 10% difference between upstream and downstream counts for location with no known traffic sources or sinks (such as driveways or parking garage) is considered acceptable. However, some districts have more stringent requirements, such as 7%. Please consult with the individual districts to establish the minimum acceptable threshold.
 </div>
 
 <div class="faq" onclick="toggleAnswer('answer22')">Are there any standards for non-state roads, such as the roadway should be classified as arterial, in order to apply for standard K factors and acceptable range of D factors?</div>
 <div class="answer" id="answer22">
-As stated in <a href="https://xinyadani.github.io/jekyll-web.io/2_5.html" target="_blank">Section 2.5.2.2</a>, a new approach to developing the Standard K Factors considers context classification, area type, and facility type of a roadway segment. It is recommended that the selected K Factor for a project fall within the K Factor Range. With the new K Factor Range, there could still be cases where the K Factor Range may not directly apply. In such cases, short-term traffic counts that include both weekdays and weekends should be collected. K Factors should be developed by analyzing the short-term traffic counts and relevant traffic information from FTO, if available.<br>
+As stated in <a href="https://xinyadani.github.io/jekyll-web.io/2_5.html" target="_blank">Section 2.5.2.2</a>, a new approach to developing the Standard K Factors considers context classification, area type, and facility type of a roadway segment. It is recommended that the selected K Factor for a project fall within the K Factor Range. With the new K Factor Range, there could still be cases where the K Factor Range may not directly apply. In such cases, short-term traffic counts that include both weekdays and weekends should be collected. K Factors should be developed by analyzing the short-term traffic counts and relevant traffic information from FTO, if available.<div style="margin:0.6rem 0"></div>
 As stated in <a href="https://xinyadani.github.io/jekyll-web.io/2_5.html" target="_blank">Section 2.5.3.2</a>, If traffic counts for the project site are not available, obtain short-term traffic counts to determine hourly traffic volume distribution. This will allow the identification of the peak hour of the day and peak direction during the peak hour. If no counts are available, the intersecting roadways that are non-state maintained will use the same D-Factor as the project roadway on the state highway system. The D-Factors should be checked to see if they are within the allowable range.
 </div>
 

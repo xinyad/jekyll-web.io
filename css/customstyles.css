@@ -211,7 +211,7 @@ p.post-meta {font-size: 80%; color: #777;}
     left: 20px;
     
     z-index: -1;
-    width:80px;
+    width:160px;
     border-left: 1px solid #dedede;
 }
 
@@ -297,7 +297,6 @@ li.dropdownActive a {
 .navbar-inverse .navbar-nav > li > a {
     background-color: transparent;
     margin-top:10px;
-
     margin-right: -8px;
     /* right: 5px; */
 }

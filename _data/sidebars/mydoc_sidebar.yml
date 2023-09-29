@@ -262,10 +262,6 @@ entries:
       url: /7_8.html
       output: web, pdf
 
-    - title: 7.9 Turning Movement Volumes Schematics
-      url: /7_9.html
-      output: web, pdf
-
   - title: 8. Equivalent Single Axle Load (ESAL) Forecasting
     output: web, pdf
 

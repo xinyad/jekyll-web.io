@@ -246,7 +246,7 @@ entries:
       url: /7_4.html
       output: web, pdf
 
-    - title: 7.5 TMTool (New TMTool)
+    - title: 7.5 TMTool v2023
       url: /7_5.html
       output: web, pdf
 
@@ -258,7 +258,7 @@ entries:
       url: /7_7.html
       output: web, pdf
 
-    - title: 7.8 Summary of Technique
+    - title: 7.8 Summary of Techniques
       url: /7_8.html
       output: web, pdf
 

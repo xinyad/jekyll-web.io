@@ -366,9 +366,7 @@ folder: mydoc
     Step  1: Receive Request for 18-KIP ESAL Estimation
 </p>
 <p>
-    <div class="italic-grey">Figure  3-1 shows an example of Project Traffic Request form. Typical</div>
-    information  requested includes AADT for project analysis years, K, D, and T
-    factors,  turning movement volumes, and 18-KIP ESAL Report.
+    Figure  3-1 shows an example of Project Traffic Request form. Typical information  requested includes AADT for project analysis years, K, D, and T factors,  turning movement volumes, and 18-KIP ESAL Report.
 </p>
 <center>
 <img src="images/tut16.png" style="max-width: 70%; text-align:center; margin-bottom: 2rem" >

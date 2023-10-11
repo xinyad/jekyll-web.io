@@ -3,6 +3,61 @@ title: Reference
 sidebar: mydoc_sidebar
 permalink: reference.html
 folder: mydoc
+keywords: "Florida Statutes, Sections 334.03(25); 334.046(1) and (2); 334.063; 334.17; 334.24; and 338.001(5)
+
+Project Traffic Forecasting Procedure, Florida Department of Transportation, Systems Implementation Office, Topic No. 525-030-120
+
+New or Modified Interchange Procedure, Florida Department of Transportation, Systems Implementation Office, Topic No. 525-030-160
+
+Project Development and Environment Manual, Florida Department of Transportation, Office of Environmental Management, Topic No. 650-000-001
+
+General Interest Roadway Data Procedure, Florida Department of Transportation, Transportation Data and Analytics Office, Topic No. 525-020-310
+
+Florida Traffic Online, Florida Department of Transportation, Transportation Data and Analytics Office
+
+AASHTO Guidelines for Traffic Data Programs (2nd Edition), American Association of State Highway and Transportation Officials, 2009
+
+Quality/Level of Service (Q/LOS) Handbook, Florida Department of Transportation, Systems Implementation Office
+
+Transportation Site Impact Handbook, Florida Department of Transportation, Systems Implementation Office
+
+FSUTMS-Cube Framework Phase II, Model Calibration and Validation Standards, Florida Department of Transportation, Forecasting and Trends Office
+
+FDOT Design Manual, Florida Department of Transportation, Roadway Design Office, Topic No. 625-000-002
+
+Manual on Uniform Traffic Studies, Florida Department of Transportation, Traffic Engineering and Operations Office, Topic No. 750-020-007
+
+Flexible Pavement Design Manual, Florida Department of Transportation, Pavement Management Office, Topic No. 625-010-002
+
+Rigid Pavement Design Manual, Florida Department of Transportation, Pavement Management Office, Topic No. 625-010-006
+
+Traffic Monitoring Handbook, Florida Department of Transportation, Traffic and Data Analytics Office,
+
+A Policy on Geometric Design of Highways and Streets, American Association of State Highway and Transportation Officials (AASHTO), 7th Edition, 2018
+
+Highway Capacity Manual, Sixth Edition: A Guide for Multimodal Mobility Analysis, Transportation Research Board, 2016
+
+Traffic Forecasting for Pavement Design, Harshad Desai, et. al., Federal Highway Administration, Washington, D.C., FHWA-TS-86-225.
+
+Federal Highway Administration Traffic Monitoring Guide, U.S Department of Transportation, Federal Highway Administration (FHWA), October 2016
+
+ITE Trip Generation Manual, 10th Edition, Transportation Research Board, September 2017
+
+National Cooperative Highway Research Program (NCHRP) Report 187, “Distribution of Assigned Volumes Among Available Facilities”, Transportation Research Board
+
+National Cooperative Highway Research Program (NCHRP) Report 255, “Highway Traffic Data for Urbanized Area Project Planning and Design”, Transportation Research Board, December 1982
+
+National Cooperative Highway Research Program (NCHRP) Report 277, “Portland Cement Concrete Pavement Evaluation System (COPES)”, M. L. Darter, J. M. Becker, M. B. Snyder and R. E. Smith, Transportation Research Board (TRB), September 1985
+
+National Cooperative Highway Research Program (NCHRP) Report 365, “Travel Estimation Techniques for Urban Planning”, Transportation Research Board, 1998
+
+National Cooperative Highway Research Program (NCHRP) Report 716, “Travel Demand Forecasting: Parameters and Techniques”, Transportation Research Board, 2012
+
+National Cooperative Highway Research Program (NCHRP) Report 735, “Long-Distance and Rural Travel Transferable Parameters for Statewide Travel Forecasting Models”, Transportation Research Board, 2012
+
+National Cooperative Highway Research Program (NCHRP) Report 765, “Analytical Travel Forecasting Approaches for Project-Level Planning and Design”, Transportation Research Board, 2014
+
+"
 ---
 
 <a href="http://www.leg.state.fl.us/Statutes/index.cfm?App_mode=Display_Statute&URL=0300-0399/0334/0334ContentsIndex.html&StatuteYear=2018&Title=-%3E2018-%3EChapter%20334">Florida Statutes, Sections 334.03(25); 334.046(1) and (2); 334.063; 334.17; 334.24; and 338.001(5)</a>

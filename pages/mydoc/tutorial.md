@@ -3,6 +3,9 @@ title: Tutorials
 sidebar: mydoc_sidebar
 permalink: tutorial.html
 folder: mydoc
+keywords: "1. Estimating AADT from Short-Term Traffic Counts
+2. Forecasting Project Traffic without a Travel Demand Model
+3. Producing 18-KIP ESALS"
 ---
 
 <style>

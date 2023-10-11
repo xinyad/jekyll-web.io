@@ -4,14 +4,13 @@ layout: none
 search: exclude
 ---
 
-
 {% assign pages = site.html_pages | where_exp: "page", "page.search != 'exclude'"  %}
 [
 {% for page in pages %}
 {
 "title": "{{ page.title | escape }}",
 "tags": "{{ page.tags }}",
-"keywords": "{{page.keywords}}",
+"keywords": "{{page.keywords| strip_newlines | replace: '\', '\\\\' | replace: '"', '\\"' }}",
 "url": "{{ page.url | remove: "/"}}",
 "summary": "{{page.summary | strip }}"
 }
@@ -23,7 +22,7 @@ search: exclude
 {
 "title": "{{ post.title | escape }}",
 "tags": "{{ post.tags }}",
-"keywords": "{{post.keywords}}",
+"keywords": "{{post.keywords| strip_newlines | replace: '\', '\\\\' | replace: '"', '\\"' }}",
 "url": "{{ post.url | remove: "/" }}",
 "summary": "{{post.summary | strip }}"
 }

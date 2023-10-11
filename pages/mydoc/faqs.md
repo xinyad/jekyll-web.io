@@ -3,6 +3,37 @@ title: FAQs
 sidebar: mydoc_sidebar
 permalink: faqs.html
 folder: mydoc
+keywords: "General Questions
+What is the purpose of the Project Traffic Forecasting Handbook (PTFH) and who uses the handbook?
+When is project traffic forecasting needed through the project development process?
+What is the process for traffic forecasting? Or what are the steps for traffic forecasting?
+Can this Handbook be used to develop project traffic for non-state road projects?
+Is there any training offered on how to use the Handbook?
+Who should be contacted if there are technical questions regarding the Handbook?
+Is there a website to download Traffic Trend Analysis, TURNS, TMTool, and 18 KIP spreadsheets?
+When would project traffic be considered to be too old?
+What traffic should be used for a project that has an interim phase?
+Is the methodology for developing project traffic for a project with managed lanes similar to traditional methods?
+
+Technical Questions
+Which locations are included in the Weigh-In-Motion (WIM) count program?
+How is the project traffic developed for a new corridor?
+Where can I find the appropriate factors for adjusting historical traffic counts?
+When do you apply axle correction factors?
+What is the source for seasonal and axle factors?
+When to use Peak Season Conversion Factor (PSCF) and seasonal factors?
+How should I address outliers in traffic counts when establishing the traffic growth trend?
+How to decide the existing year and the analysis forecasting years for a project?
+Where to find the proper Travel Demand Model for project traffic forecasting?
+How to adjust the AADT when model forecasting years are different than the project analysis years?
+How to balance the estimated intersection turning movements along the study corridor?
+Are there any standards for non-state roads, such as the roadway should be classified as arterial, in order to apply for standard K factors and acceptable range of D factors?
+Is there a minimum growth rate for future traffic forecasting?
+When applying the rounding convention to the volumes, the forecasted volumes for different forecasting years may be the same in some cases due to low growth rate. Is there a guidance to differentiate these forecasted volumes?
+How to decide the appropriate method to estimate intersection turning movements?
+How to calculate 18-KIP ESALs when historical AADT shows a decreasing trend?
+When calculating 18-KIP ESALs, what is the guidance to input for number of lanes in one direction when there are odd number for lanes on the study roadway?
+"
 ---
 
 <style>

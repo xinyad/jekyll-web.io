@@ -304,20 +304,24 @@ entries:
       url: /9_1.html
       output: web, pdf
 
-    - title: 9.2 Travel Demand Forecasting for Express Lanes
+    - title: 9.2 Purpose
       url: /9_2.html
       output: web, pdf
 
-    - title: 9.3 Methods for Forecasting Express Lanes Project Traffic
+    - title: 9.3 Travel Demand Forecasting for Express Lanes
       url: /9_3.html
       output: web, pdf
 
-    - title: 9.4 ELToD Method for Forecasting Express Lanes Project Traffic
+    - title: 9.4 Methods for Forecasting Express Lanes Project Traffic
       url: /9_4.html
       output: web, pdf
 
-    - title: 9.5 Project Forecasting Methodology
+    - title: 9.5 ELToD Method for Forecasting Express Lanes Project Traffic
       url: /9_5.html
+      output: web, pdf
+
+    - title: 9.6 Project Forecasting Methodology
+      url: /9_6.html
       output: web, pdf
 
   - title: Glossary

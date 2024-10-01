@@ -170,3 +170,22 @@ u {
     text-align: left;
 }
 
+/* red square part */
+#red-square ul {
+    list-style-type: none; /* Removes default bullets */
+    padding: 0; /* Removes default padding from the list */
+    padding-left: 30px;
+}
+#red-square ul li {
+    padding-left: 20px; /* Adds padding for custom bullet */
+    text-indent: -20px; /* Aligns text properly with custom bullet */
+}
+#red-square ul li:before {
+    content: "\25A0"; /* Unicode for square */
+    color: #d32f2f; /* Color of the bullet */
+    padding-right: 10px; /* Space between the bullet and text */
+}
+#red-square ul li ol{
+    padding-left: 20px; /* Adds padding for custom bullet */
+    text-indent: -20px; /* Aligns text properly with custom bullet */
+}

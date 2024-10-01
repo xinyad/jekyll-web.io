@@ -78,24 +78,16 @@ entries:
       url: /2_6.html
       output: web, pdf
 
-    - title: 2.7 Level of Service (LOS) Analysis
+    - title: 2.7 Estimation of AADT From Short-Term Traffic Counts
       url: /2_7.html
       output: web, pdf
 
-    - title: 2.8 Number of Lanes Required
+    - title: 2.8 Additional Data Sources
       url: /2_8.html
       output: web, pdf
 
-    - title: 2.9 Estimation of AADT From Short-Term Traffic Counts
+    - title: 2.9 Application of "Big Data" for Traffic Data Analysis
       url: /2_9.html
-      output: web, pdf
-
-    - title: 2.10	Additional Data Sources
-      url: /2_10.html
-      output: web, pdf
-
-    - title: 2.11	Application of "Big Data" for Traffic Data Analysis
-      url: /2_11.html
       output: web, pdf
 
 
@@ -115,7 +107,7 @@ entries:
       url: /3_3.html
       output: web, pdf
 
-    - title: 3.4 Identify Available and Needed Data Sources
+    - title: 3.4 Identify Available and Needed Data Types
       url: /3_4.html
       output: web, pdf
 

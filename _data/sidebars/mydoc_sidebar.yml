@@ -324,14 +324,48 @@ entries:
       url: /9_6.html
       output: web, pdf
 
-  - title: Glossary
+  - title: Appendix A
+    output: web, pdf
+
+    folderitems:
+
+    - title: Project Traffic Forecasting Procedure
+      url: /Appendix_A_1.html
+      output: web, pdf
+
+    - title: "FHWA Approval Letter: Use of Standard K"
+      url: /Appendix_A_2.html
+      output: web, pdf
+
+    - title: "FDOT White Paper: Standard K Evaluation"
+      url: /Appendix_A_3.html
+      output: web, pdf
+
+  - title: Appendix B
+    output: web, pdf
+
+    folderitems:
+
+    - title: References
+      url: /Appendix_B_1.html
+      output: web, pdf
+
+  - title: Appendix C
     output: web, pdf
 
     folderitems:
 
     - title: Glossary
-      url: /glossary.html
+      url: /Appendix_C_1.html
       output: web, pdf
 
+  - title: Appendix D
+    output: web, pdf
+
+    folderitems:
+
+    - title: Example of District 2 Manual Method
+      url: /Appendix_D_1.html
+      output: web, pdf
 
   

@@ -177,6 +177,7 @@ u {
     padding-left: 30px;
 }
 #red-square ul li {
+    text-align: left;
     padding-left: 20px; /* Adds padding for custom bullet */
     text-indent: -20px; /* Aligns text properly with custom bullet */
 }

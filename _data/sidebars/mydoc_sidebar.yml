@@ -187,12 +187,16 @@ entries:
       url: /5_5.html
       output: web, pdf
 
-    - title: 5.6 Example Traffic Projection for I-10/SR-8 in Columbia County
+    - title: 5.6 Other Factors to Consider
       url: /5_6.html
       output: web, pdf
 
-    - title: 5.7 Summary
+    - title: 5.7 Example Traffic Projection for I-10/SR-8 in Columbia County
       url: /5_7.html
+      output: web, pdf
+
+    - title: 5.8 Summary
+      url: /5_8.html
       output: web, pdf
     
 

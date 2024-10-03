@@ -90,13 +90,7 @@ entries:
       url: /2_9.html
       output: web, pdf
 
-    - title: 2.10	Additional Data Sources
-      url: /2_10.html
-      output: web, pdf
 
-    - title: 2.11	Application of "Big Data" for Traffic Data Analysis
-      url: /2_11.html
-      output: web, pdf
 
 
   - title: 3. Scoping for Project Traffic Foresting

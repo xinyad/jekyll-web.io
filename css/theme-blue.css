@@ -137,6 +137,12 @@ li.sidebarTitle {
     font-style: italic;
 }
 
+.post-title-main{   /*edit the title for each page */
+    color: #38446f;
+
+}
+
+
 u { 
     text-decoration: underline;
   }

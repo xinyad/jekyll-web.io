@@ -1,3 +1,6 @@
+body {
+    counter-reset: section; /* 默认计数器 */
+}
 .summary {
     color: #808080;
     border-left: 5px solid #ED1951;
@@ -125,10 +128,23 @@ li.sidebarTitle {
 .navbar-inverse .navbar-toggle {
     border-color: #015CAE;
 }
+.chapter {
+    counter-reset: section; /* 初始化计数器，确保每个章节从 1 开始 */
+}
 
-.subtitle-3{
-    color: #009dd6;
-    font-weight: bold;
+.subtitle-3 {
+    counter-increment: section;
+    color: #d32f2f; /* 红色标题 */
+    font-weight: bold; /* 加粗文字 */
+    font-size: 18px; /* 设置比默认稍大的文字大小 */
+    margin-bottom: 10px;
+}
+
+.subtitle-3::before {
+    content: attr(data-chapter) "." counter(section) " ";
+    color: #50576b; /* 深蓝色的编号 */
+    font-weight: bold; /* 加粗编号 */
+    font-size: 18px; /* 确保编号的大小与标题文字一致 */
 }
 
 .subtitle-4{
@@ -174,6 +190,28 @@ u {
 
 .equation{
     text-align: left;
+}
+
+.equation-container {
+    display: flex; /* 使用flexbox将公式和标签放在同一行 */
+    justify-content: space-between; /* 让两者分布在行的两边 */
+    align-items: center;/* 使公式和标签垂直居中 */
+    flex-wrap: wrap; 
+    margin: 20px 0; /* 给容器添加一些上下间距 */
+}
+
+.formula {
+    font-size: 1em; /* 调整公式的大小 */
+    margin-left: 2em;
+}
+
+.equation-label {
+    background-color: #003366; /* 深蓝色背景 */
+    color: white; /* 白色文字 */
+    padding: 5px 15px; /* 给标签添加一些内边距 */
+    font-size: 1.0em; /* 调整字体大小 */
+    text-align: right; /* 让标签文字靠右对齐 */
+    border-radius: 5px; /* 让标签的边角稍微圆滑 */
 }
 
 /* red square part */

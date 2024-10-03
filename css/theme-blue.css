@@ -189,7 +189,7 @@ u {
 }
 
 .equation{
-    text-align: left;
+    text-align: center;
 }
 
 .equation-container {
@@ -201,8 +201,9 @@ u {
 }
 
 .formula {
-    font-size: 1em; /* 调整公式的大小 */
-    margin-left: 2em;
+    font-size: 1em;
+    flex: 1; /* 让公式占据剩余的宽度 */
+    text-align: center; /* 确保公式居中 */
 }
 
 .equation-label {
@@ -212,6 +213,8 @@ u {
     font-size: 1.0em; /* 调整字体大小 */
     text-align: right; /* 让标签文字靠右对齐 */
     border-radius: 5px; /* 让标签的边角稍微圆滑 */
+    white-space: nowrap; /* 防止标签换行 */
+    margin-left: 20px; /* 给标签与公式之间留些空间 */
 }
 
 /* red square part */

@@ -31,7 +31,7 @@ permalink: index.html
   }
 </style>
 
-Project traffic is the amount of multimodal traffic with respective characteristics that is expected in an existing or proposed transportation facility in the future. Project traffic estimates are required for planning, Project Development and Environment (PD&E) studies, design, construction, and pavement design including Resurfacing, Restoration, and Rehabilitation (RRR) projects, and traffic engineering studies. Project Traffic Forecasting is used to evaluate the performance, design, and impact of a transportation facility and its effect on the surrounding network and the environment. A project traffic report is routinely prepared as part of most PD&E Studies to document the existing conditions and the development of future project traffic data. The <a href="https://fdotwww.blob.core.windows.net/sitefinity/docs/default-source/roadway/fdm/2024/2024fdm913typsect.pdf" target="blank">2024 FDOT Design Manual (Chapter 913)</a> requires traffic data consistent with the data used for pavement design to be included in each typical section. Pavement design considers the total amount of truck traffic accumulated during the expected service life of a roadway segment.
+Project traffic is the amount of multimodal traffic with respective characteristics that is expected in an existing or proposed transportation facility in the future. Project traffic estimates are required for planning, Project Development and Environment (PD&E) studies, design, construction, and pavement design including Resurfacing, Restoration, and Rehabilitation (RRR) projects, and traffic engineering studies. Project Traffic Forecasting is used to evaluate the performance, design, and impact of a transportation facility and its effect on the surrounding network and the environment. A project traffic report is routinely prepared as part of most PD&E Studies to document the existing conditions and the development of future project traffic data. The <a href="https://fdotwww.blob.core.windows.net/sitefinity/docs/default-source/roadway/fdm/2024/2024fdm913typsect.pdf" target="_blank">2024 FDOT Design Manual (Chapter 913)</a> requires traffic data consistent with the data used for pavement design to be included in each typical section. Pavement design considers the total amount of truck traffic accumulated during the expected service life of a roadway segment.
 
 Project Traffic Forecasting is a complex and resource-intensive process that requires a large
 amount of data, detailed analysis, and specialized expertise. It often involves making reasonable
@@ -50,27 +50,21 @@ state. It describes the three (3) forecasting processes, which include Corridor,
 KIP Equivalent Single Axle Load (ESAL), in detail.
 
 
+<div style="color: #d32f2f; font-size: 20px; padding: 0"><b>CORRIDOR</b></div>
 
-<div class="parent">
-    <div class="child1"><div style="background:#20a3d3; color:white; font-weight: bold; padding:0.5rem 0.5rem 0.5rem 0.5rem; text-align:center">CORRIDOR</div></div>
-    <div class="child2">Corridor projects usually require the development of traffic projections that are used to make
+Corridor projects usually require the development of traffic projections that are used to make
 decisions with important capacity and capital investment implications. Corridor Traffic Forecasting
-is required before establishing a new alignment or widening of an existing facility.</div>
-</div>
+is required before establishing a new alignment or widening of an existing facility.
 
-<div class="parent">
-    <div class="child1"><div style="background:#20a3d3; color:white; font-weight: bold; padding:0.5rem 1.1rem 0.5rem 1.1rem; text-align:center">PROJECT</div></div>
-    <div class="child2">Project traffic projections are commonly used to develop lane configuration requirements for
+<div style="color: #d32f2f; font-size: 20px; padding: 0"><b>PROJECTR</b></div>
+Project traffic projections are commonly used to develop lane configuration requirements for
 intersection designs, and to evaluate the operational efficiency of proposed improvements. Project
 Traffic Forecasting is also required for reconstruction, resurfacing, lane addition, bridge replacement,
 new roadway projects, and major intersection improvements. This process differs from Corridor
-Traffic Forecasting in that it is site-specific and covers a limited geographic area.</div>
-</div>
+Traffic Forecasting in that it is site-specific and covers a limited geographic area.
 
-<div class="parent">
-    <div class="child1"><div style="background:#20a3d3; color:white; font-weight: bold; padding:0.5rem 2.7rem 0.5rem 2.7rem; text-align:center">ESAL</div></div>
-    The 18-KIP ESAL Forecasting Process is required for the pavement design for new construction,
+<div style="color: #d32f2f; font-size: 20px; padding: 0"><b>ESAL</b></div>
+The 18-KIP ESAL Forecasting Process is required for the pavement design for new construction,
 reconstruction, and Resurfacing, Restoration and Rehabilitation (RRR) projects that require a
 structural loading forecast.
-</div>
 

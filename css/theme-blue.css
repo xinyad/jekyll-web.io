@@ -242,3 +242,25 @@ u {
 a[target="_blank"]::after {
     content: none; /* Removes the external link icon */
 }
+
+
+/* place items side by side */
+.parent {
+    
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.child1 {
+    font-weight: bold; /* Make the text bold */
+    color: #015CAE; /* Use a similar blue color */
+    flex: 0.8; /* 70% of the width */
+    margin-right: 8px
+     /* Optional margin between the two paragraphs */
+}
+
+.child2 {
+    flex: 8; /* 30% of the width */
+    padding-bottom: 10px;
+}

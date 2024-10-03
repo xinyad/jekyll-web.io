@@ -150,7 +150,6 @@ li.sidebarTitle {
 .subtitle-4{
     color:#015CAE;
     font-weight: bold;
-    font-style: italic;
 }
 
 .post-title-main{   /*edit the title for each page */
@@ -164,10 +163,11 @@ u {
   }
 
 .ul-circle ul li{ 
-    list-style:circle;
+    list-style-type: circle;
     margin-left: 2rem;
     margin-top: 0.2rem;
     margin-bottom: 0.2rem;
+    text-align: justify;
 }
 .ul-square ul li{ 
     list-style:square;

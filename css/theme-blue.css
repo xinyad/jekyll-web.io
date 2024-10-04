@@ -251,6 +251,25 @@ u {
     text-indent: -20px; /* Aligns text properly with custom bullet */
 }
 
+/* Numbered list part */
+#red-num ul {
+    list-style-type: decimal; /* Changes the bullets to numbers */
+    padding: 0; /* Removes default padding from the list */
+    padding-left: 25px;
+}
+
+#red-num ul li {
+    text-align: left;
+    margin-bottom: 0.4rem; /* Ensures no extra space between items */
+    margin-top: 0.4rem; /* Ensures no extra space between items */
+}
+
+/* Optional: To handle nested ordered lists (if you have sub-lists inside) */
+#red-num ul li ol {
+    padding-left: 20px; /* Adds padding for custom numbering in sublists */
+}
+
+
 /* Remove the external link icon for all links */
 a[target="_blank"]::after {
     content: none; /* Removes the external link icon */

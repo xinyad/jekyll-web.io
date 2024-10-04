@@ -71,9 +71,6 @@ a.navbar-brand:hover {
   color: #e3e9f4;
 }
 
-.navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus {
-    color: #015CAE;
-}
 
 .navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus {
     background-color: #3160ad; /*when Chpaters button was clicked*/
@@ -90,9 +87,10 @@ a.navbar-brand:hover {
     border-color: #347DBE;
 }
 
+/* after the button is clicked, its styles are shown below */
 .navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
     /* background-color: #347DBE; */
-    background-color: #20a3d3;
+    background-color: #3160ad;
 }
 
 .btn-primary:hover,
@@ -233,12 +231,15 @@ u {
 #red-square ul {
     list-style-type: none; /* Removes default bullets */
     padding: 0; /* Removes default padding from the list */
-    padding-left: 30px;
+    padding-left: 25px;
 }
 #red-square ul li {
     text-align: left;
     padding-left: 20px; /* Adds padding for custom bullet */
     text-indent: -20px; /* Aligns text properly with custom bullet */
+    margin-bottom: 0.4rem; /* Ensures no extra space between items */
+    margin-top: 0.4rem; /* Ensures no extra space between items */
+
 }
 #red-square ul li:before {
     content: "\25A0"; /* Unicode for square */

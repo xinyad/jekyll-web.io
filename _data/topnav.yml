@@ -56,16 +56,16 @@ topnav:
 
 - title: Topnav
   items:
-    # - title: Tutorial
-    #   url: /tutorial.html
-    # - title: Release Note
-    #   url: /release_note.html
-    # - title: FAQs
-    #   url: /faqs.html
-    # - title: Addendum
-    #   url: /addendum.html
-    # - title: Download
-    #   url: /download.html
+    - title: Tutorial
+      url: /tutorial.html
+    - title: Release Note
+      url: /release_note.html
+    - title: FAQs
+      url: /faqs.html
+    - title: Addendum
+      url: /addendum.html
+    - title: Download
+      url: /download.html
     # - title: Reference
     #   url: /reference.html
 

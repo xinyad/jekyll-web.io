@@ -33,8 +33,14 @@ topnav_dropdowns:
           url: /8_1.html
         - title: Chapter9
           url: /9_1.html
-        - title: Glossary
+        - title: Appendix A
+          url: /Appendix_A_1.html
+        - title: Appendix B
+          url: /reference.html
+        - title: Appendix C
           url: /glossary.html
+        - title: Appendix D
+          url: /Appendix_D_1.html
        
 
 
@@ -50,16 +56,16 @@ topnav:
 
 - title: Topnav
   items:
-    - title: Tutorial
-      url: /tutorial.html
-    - title: Release Note
-      url: /release_note.html
-    - title: FAQs
-      url: /faqs.html
-    - title: Addendum
-      url: /addendum.html
-    - title: Download
-      url: /download.html
+    # - title: Tutorial
+    #   url: /tutorial.html
+    # - title: Release Note
+    #   url: /release_note.html
+    # - title: FAQs
+    #   url: /faqs.html
+    # - title: Addendum
+    #   url: /addendum.html
+    # - title: Download
+    #   url: /download.html
     # - title: Reference
     #   url: /reference.html
 

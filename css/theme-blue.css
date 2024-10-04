@@ -25,9 +25,21 @@ h4 {color: #808080; }
     background-color: #248ec2;
 }
 
+
+div.navbar-collapse .dropdown-menu {  /*change top nav chapter menu width*/
+
+    position: absolute; 
+    top: 100%; /* make sure the menu is below top nav bar */
+    left:1rem;
+    width: 90px; 
+    min-width: 80px; 
+    max-width: 90px;
+
+}
+
 div.navbar-collapse .dropdown-menu > li > a:hover {
     /* background-color: #347DBE; */
-    background-color: #20a3d3;
+    background-color: #c7d6f3;
 }
 
 .nav li.thirdlevel > a {
@@ -44,19 +56,19 @@ a[data-toggle="tooltip"] {
 
 .navbar-inverse {
     /* background-color: #347DBE; */
-    background-color: #20a3d3;
-    border-color: #20a3d3;
+    background-color: #1e4383;
+    border-color: #1e4383;
 }
 .navbar-inverse .navbar-nav>li>a, .navbar-inverse .navbar-brand {
     color: white;
 }
 
 .navbar-inverse .navbar-nav>li>a:hover, a.fa.fa-home.fa-lg.navbar-brand:hover {
-     color: #f0f0f0;
+     color: #e3e9f4;
 }
 
 a.navbar-brand:hover {
-  color: #f0f0f0;
+  color: #e3e9f4;
 }
 
 .navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus {
@@ -64,7 +76,7 @@ a.navbar-brand:hover {
 }
 
 .navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus {
-    background-color: #5caacbd1; /*when Chpaters button was clicked*/
+    background-color: #3160ad; /*when Chpaters button was clicked*/
     color: #ffffff;
 }
 
@@ -112,7 +124,7 @@ div.sidebarTitle {
 }
 
 li.sidebarTitle {
-  margin-top:20px;
+    margin-top:20px;
     font-weight:normal;
     font-size:130%;
     color: #ED1951;

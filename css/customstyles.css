@@ -199,7 +199,8 @@ p.post-meta {font-size: 80%; color: #777;}
 
 /* search area */
 #search-demo-container{
-    width: 30px;  /*initial 90px */
+    width: 10rem;  /*initial 90px */
+
 }
 
 #search-demo-container ul#results-container {
@@ -223,6 +224,7 @@ ul#results-container a {
 
 ul#results-container a:hover {
     color: black;
+    background-color: #c7d6f3;
 }
 
 

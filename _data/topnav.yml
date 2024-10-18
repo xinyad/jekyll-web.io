@@ -15,23 +15,23 @@ topnav_dropdowns:
     #       external_url: http://idratherbewriting.com/category-jekyll/
     - title: Chapters
       folderitems:
-        - title: Chapter1
+        - title: Chapter 1
           url: /index.html
-        - title: Chapter2
+        - title: Chapter 2
           url: /2_1.html
-        - title: Chapter3
+        - title: Chapter 3
           url: /3_1.html
-        - title: Chapter4
+        - title: Chapter 4
           url: /4_1.html
-        - title: Chapter5
+        - title: Chapter 5
           url: /5_1.html
-        - title: Chapter6
+        - title: Chapter 6
           url: /6_1.html
-        - title: Chapter7
+        - title: Chapter 7
           url: /7_1.html
-        - title: Chapter8
+        - title: Chapter 8
           url: /8_1.html
-        - title: Chapter9
+        - title: Chapter 9
           url: /9_1.html
         - title: Appendix A
           url: /Appendix_A_1.html

@@ -73,52 +73,69 @@
     </script>
     {% endif %}
 
-    <!-- Highlighting search keyword -->
-    <script>
-        window.onload = function() {
-            console.log("Window onload event fired");  // Check if the script is running
-    
-            // Get the URL query parameters
-            const params = new URLSearchParams(window.location.search);
-            const highlight = params.get('highlight');
-    
-            // Log the highlight parameter
-            console.log("Highlight parameter:", highlight);
-    
-            // If there is a highlight parameter, proceed with highlighting
-            if (highlight) {
-                console.log("Highlighting text:", highlight);
-                highlightText(document.getElementById('tg-sb-content'), highlight);
-            } else {
-                console.log("No highlight parameter found.");
-            }
-        };
-    
-        function highlightText(node, keyword) {
-            console.log("Starting highlightText function with keyword:", keyword);
-    
-            const regex = new RegExp(`(${keyword})`, 'gi'); // Case-insensitive search
-            const walk = document.createTreeWalker(node, NodeFilter.SHOW_TEXT, null, false);
-            let textNode;
-    
-            // Walk through text nodes and apply highlight
-            while (textNode = walk.nextNode()) {
-                const parent = textNode.parentNode;
-                if (parent && !['SCRIPT', 'STYLE', 'SPAN'].includes(parent.tagName)) {
-                    const text = textNode.nodeValue;
-                    if (regex.test(text)) {
-                        const highlightedHTML = text.replace(regex, '<span class="highlight">$1</span>');
-                        const wrapper = document.createElement('span');
-                        wrapper.innerHTML = highlightedHTML;
-                        parent.replaceChild(wrapper, textNode);
-    
-                        // Log the highlighted text
-                        console.log("Text highlighted:", text);
-                    }
+<!-- Highlighting search keyword -->
+<script>
+    window.onload = function() {
+        console.log("Window onload event fired");  // Check if the script is running
+
+        // Get the URL query parameters
+        const params = new URLSearchParams(window.location.search);
+        const highlight = params.get('highlight');
+
+        // Log the highlight parameter
+        console.log("Highlight parameter:", highlight);
+
+        // If there is a highlight parameter, proceed with highlighting
+        if (highlight) {
+            console.log("Highlighting text:", highlight);
+            highlightText(document.getElementById('tg-sb-content'), highlight);
+        } else {
+            console.log("No highlight parameter found.");
+        }
+    };
+
+    function highlightText(node, keyword) {
+        console.log("Starting highlightText function with keyword:", keyword);
+
+        const regex = new RegExp(`(${keyword})`, 'gi'); // Case-insensitive search
+        const walker = document.createTreeWalker(node, NodeFilter.SHOW_TEXT, null, false);
+        let textNode;
+        const nodesToHighlight = [];
+
+        // Collect all text nodes before modifying the DOM
+        while (textNode = walker.nextNode()) {
+            const parent = textNode.parentNode;
+            if (parent && !['SCRIPT', 'STYLE', 'SPAN'].includes(parent.tagName)) {
+                if (regex.test(textNode.nodeValue)) {
+                    nodesToHighlight.push(textNode);
                 }
             }
         }
-    </script>
+
+        // Apply highlights to all collected text nodes
+        nodesToHighlight.forEach(textNode => {
+            const parent = textNode.parentNode;
+            const text = textNode.nodeValue;
+            const highlightedHTML = text.replace(regex, '<span class="highlight">$1</span>');
+
+            // Create a temporary container to hold the new HTML
+            const wrapper = document.createElement('span');
+            wrapper.innerHTML = highlightedHTML;
+
+            // Replace the text node with the HTML including highlights
+            while (wrapper.firstChild) {
+                parent.insertBefore(wrapper.firstChild, textNode);
+            }
+
+            // Remove the original text node
+            parent.removeChild(textNode);
+
+            // Log the highlighted text
+            console.log("Text highlighted:", text);
+        });
+    }
+</script>
+
     
 
     <style>

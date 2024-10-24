@@ -47,7 +47,8 @@
     2: [function(require, module) {
         function FuzzySearchStrategy() {
             function createFuzzyRegExpFromString(string) {
-                return new RegExp(string.split("").join(".*?"), "gi");
+                // Create a fuzzy regex but stricter to match closely
+                return new RegExp(string.split("").join(".{0,1}"), "gi");
             }
             var self = this;
             self.matches = function(string, crit) {
@@ -266,6 +267,7 @@
                             // If there's a search keyword, use the utility function to safely add it
                             if (searchKeyword && result.url) {
                                 result.url = addHighlightToUrl(result.url, searchKeyword);
+                                console.log("Constructed URL with highlight:", result.url); // Debugging: Check the URL construction
                             }
 
                             // Construct the result HTML

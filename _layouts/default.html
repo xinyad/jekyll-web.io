@@ -76,19 +76,19 @@
 <!-- Highlighting search keyword -->
 <script>
     window.onload = function() {
-        console.log("Window onload event fired");  // Check if the script is running
+        console.log("Window onload event fired");
 
         // Get the URL query parameters
         const params = new URLSearchParams(window.location.search);
         const highlight = params.get('highlight');
 
-        // Log the highlight parameter
-        console.log("Highlight parameter:", highlight);
-
         // If there is a highlight parameter, proceed with highlighting
         if (highlight) {
             console.log("Highlighting text:", highlight);
             highlightText(document.getElementById('tg-sb-content'), highlight);
+
+            // Remove the highlight parameter from the URL after highlighting
+            removeHighlightParam();
         } else {
             console.log("No highlight parameter found.");
         }
@@ -97,7 +97,7 @@
     function highlightText(node, keyword) {
         console.log("Starting highlightText function with keyword:", keyword);
 
-        const regex = new RegExp(`(${keyword})`, 'gi'); // Case-insensitive search
+        const regex = new RegExp(`\\b(${keyword})\\b`, 'gi'); // Word-boundary for whole words
         const walker = document.createTreeWalker(node, NodeFilter.SHOW_TEXT, null, false);
         let textNode;
         const nodesToHighlight = [];
@@ -130,11 +130,28 @@
             // Remove the original text node
             parent.removeChild(textNode);
 
-            // Log the highlighted text
             console.log("Text highlighted:", text);
         });
     }
+
+    function removeHighlightParam() {
+        const url = new URL(window.location.href);
+        url.searchParams.delete('highlight'); // Remove the highlight parameter
+
+        // Update the browser URL without reloading the page
+        window.history.replaceState({}, document.title, url.pathname);
+    }
+
+    // Optional: Cancel the highlight on refresh or page reload
+    window.onbeforeunload = function() {
+        const highlights = document.querySelectorAll('.highlight');
+        highlights.forEach(highlight => {
+            const parent = highlight.parentNode;
+            parent.replaceChild(document.createTextNode(highlight.textContent), highlight);
+        });
+    };
 </script>
+
 
     
 

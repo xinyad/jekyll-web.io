@@ -296,3 +296,8 @@ a[target="_blank"]::after {
     flex: 8; /* 30% of the width */
     padding-bottom: 10px;
 }
+
+.highlight {
+    background-color: yellow; /* Change the background color to your preference */
+    font-weight: bold; /* Optional: make it bold */
+}

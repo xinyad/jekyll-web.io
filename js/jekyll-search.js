@@ -1,5 +1,6 @@
-!function e(t,n,r) {
-    function s(o,u) {
+
+!function e(t, n, r) {
+    function s(o, u) {
         if (!n[o]) {
             if (!t[o]) {
                 var a = "function" == typeof require && require;
@@ -43,7 +44,7 @@
             };
         };
     }, {}],
-    
+
     2: [function(require, module) {
         function FuzzySearchStrategy() {
             function createFuzzyRegExpFromString(string) {
@@ -160,33 +161,71 @@
 
     7: [function(require) {
         !function(window) {
+            var searchKeyword = ''; // Global variable to hold the current search keyword
+            const resultsContainer = document.querySelector('#results-container');
             "use strict";
+            
+            // Utility function to safely add the 'highlight' parameter to the URL
+            function addHighlightToUrl(url, keyword) {
+                // If the URL already contains '?highlight=', don't add it again
+                if (url.includes('?highlight=')) {
+                    return url;
+                }
+                
+                // Append the highlight parameter with the full search keyword
+                return url + '?highlight=' + encodeURIComponent(keyword);
+            }
+
+            // Utility function to debounce input handling
+            function debounce(func, wait) {
+                let timeout;
+                return function(...args) {
+                    clearTimeout(timeout);
+                    timeout = setTimeout(() => func.apply(this, args), wait);
+                };
+            }
+
             function SimpleJekyllSearch() {
                 function initWithJSON() {
                     store.put(opt.dataSource);
                     registerInput();
                 }
+                
                 function initWithURL(url) {
                     jsonLoader.load(url, function(err, json) {
                         if (err) throwError("failed to get JSON (" + url + ")");
                         else {
+                            if (searchKeyword) {
+                                json = json.map(item => {
+                                    if (item.url) {
+                                        // Use the utility function to add the highlight parameter safely
+                                        item.url = addHighlightToUrl(item.url, searchKeyword);
+                                    }
+                                    return item;
+                                });
+                            }
+                            
                             store.put(json);
                             registerInput();
                         }
                     });
                 }
+
                 function throwError(message) {
                     throw new Error("SimpleJekyllSearch --- " + message);
                 }
+
                 function validateOptions(_opt) {
                     for (var i = 0; i < requiredOptions.length; i++) {
                         var req = requiredOptions[i];
                         if (!_opt[req]) throwError("You must specify a " + req);
                     }
                 }
+
                 function assignOptions(_opt) {
                     for (var option in opt) opt[option] = _opt[option] || opt[option];
                 }
+
                 function isJSON(json) {
                     try {
                         return json instanceof Object && JSON.parse(JSON.stringify(json));
@@ -194,23 +233,48 @@
                         return !1;
                     }
                 }
+
                 function emptyResultsContainer() {
                     opt.resultsContainer.innerHTML = "";
                 }
+
                 function appendToResultsContainer(text) {
                     opt.resultsContainer.innerHTML += text;
                 }
+
                 function registerInput() {
-                    opt.searchInput.addEventListener("keyup", function(e) {
-                        return 0 == e.target.value.length ? void emptyResultsContainer() : void render(searcher.search(store, e.target.value));
-                    });
+                    opt.searchInput.addEventListener("keyup", debounce(function(e) {
+                        searchKeyword = e.target.value.trim(); // Capture the full search keyword
+                        console.log("Captured search keyword:", searchKeyword); // Debugging: Check the captured keyword
+                        
+                        if (searchKeyword.length === 0) {
+                            emptyResultsContainer();
+                        } else {
+                            const searchResults = searcher.search(store, searchKeyword);
+                            render(searchResults);
+                        }
+                    }, 300)); // Debounce for 300ms
                 }
-                
+
                 function render(results) {
-                    emptyResultsContainer();
-                    if (results.length === 0) return appendToResultsContainer(opt.noResultsText);
-                    for (var i = 0; i < results.length; i++) {
-                        appendToResultsContainer(templater.render(opt.searchResultTemplate, results[i]));
+                    const resultsContainer = document.getElementById('results-container');
+                    
+                    if (resultsContainer) {
+                        // Clear existing results
+                        resultsContainer.innerHTML = '';
+                        
+                        results.forEach(function(result) {
+                            // If there's a search keyword, use the utility function to safely add it
+                            if (searchKeyword && result.url) {
+                                result.url = addHighlightToUrl(result.url, searchKeyword);
+                            }
+
+                            // Construct the result HTML
+                            const resultHTML = `<li><a href="${result.url}" title="${result.desc}">${result.title}</a></li>`;
+                            
+                            // Append the result to the container
+                            resultsContainer.innerHTML += resultHTML;
+                        });
                     }
                 }
                 
@@ -232,6 +296,7 @@
                 };
                 
             }
+
             var Searcher = require("./Searcher"),
                 Templater = require("./Templater"),
                 Store = require("./Store"),

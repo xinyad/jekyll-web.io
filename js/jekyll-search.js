@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 
+=======
+>>>>>>> 8a70dc3b30da75fc86ace4f864453403b115dd2b
 !function e(t, n, r) {
     function s(o, u) {
         if (!n[o]) {

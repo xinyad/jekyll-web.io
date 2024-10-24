@@ -198,9 +198,9 @@ p.post-meta {font-size: 80%; color: #777;}
 .entry-date{font-size:14px;font-size:0.875rem;line-height:1.71429;margin-bottom:0;text-transform:uppercase;}
 
 /* search area */
-#search-demo-container{
-    width: 10rem;  /*initial 90px */
-
+#search-demo-container {
+    width: 12rem; /* Use a percentage for responsiveness */
+    max-width: 200px; /* Set a maximum width to prevent it from becoming too large */
 }
 
 #search-demo-container ul#results-container {
@@ -208,18 +208,19 @@ p.post-meta {font-size: 80%; color: #777;}
     font-size: 12px;
     background-color: white;
     position: absolute;
-    top: 40px; /* if you change anything about the nav, you'll prob. need to reset the top and left values here.*/
-    left: 20px;
-    
-    z-index: -1;
-    width:160px;
+    top: 42px; /* Adjust based on your layout */
+    left: 0; /* Align to the left side of the container */
+    z-index: 1; /* Change z-index to make sure it appears above other elements */
+    width: 100%; /* Use 100% width of the parent container */
     border-left: 1px solid #dedede;
+    max-height: 200px; /* Adjust height for 10 items (depends on item height) */
+    overflow-y: auto; /* Enable vertical scrolling */
 }
-
 
 ul#results-container a {
     background-color: transparent;
-    
+    display: block; /* Ensure links take the full width */
+    padding: 5px; /* Add padding for easier clicking */
 }
 
 ul#results-container a:hover {
@@ -227,21 +228,21 @@ ul#results-container a:hover {
     background-color: #c7d6f3;
 }
 
-
 #search-demo-container a:hover {
     color: black;
 }
+
 #search-input {
-    /* padding: .3em; */
-    margin-left:20px;
-    width:80px;
+    margin-left: 20px;
+    width: calc(100% - 40px); /* Make the input responsive */
     font-size: 1em;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-    margin-top:9px;
+    margin-top: 9px;
     vertical-align: middle;
 }
+
 /* end search */
 
 .filter-options {

@@ -94,14 +94,14 @@
             var self = this,
                 matches = [],
                 fuzzy = !1,
-                limit = 10,
+                limit = 200,
                 fuzzySearchStrategy = require("./SearchStrategies/fuzzy"),
                 literalSearchStrategy = require("./SearchStrategies/literal");
             self.setFuzzy = function(_fuzzy) {
                 fuzzy = !!_fuzzy;
             };
             self.setLimit = function(_limit) {
-                limit = parseInt(_limit, 10) || limit;
+                limit = parseInt(_limit, 200) || limit;
             };
             self.search = function(data, crit) {
                 return crit ? (matches.length = 0, findMatches(data, crit, getSearchStrategy())) : [];
@@ -289,7 +289,7 @@
                         dataSource: [],
                         searchResultTemplate: '<li><a href="{url}" title="{desc}">{title}</a></li>',
                         noResultsText: "No results found",
-                        limit: 10,
+                        limit: 200,
                         fuzzy: !1
                     };
                 self.init = function(_opt) {

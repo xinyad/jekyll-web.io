@@ -169,11 +169,13 @@
             function addHighlightToUrl(url, keyword) {
                 // If the URL already contains '?highlight=', don't add it again
                 if (url.includes('?highlight=')) {
-                    return url;
+                    // If it does, replace the existing highlight parameter with the new one
+                    const updatedUrl = url.replace(/highlight=[^&]*/, `highlight=${encodeURIComponent(keyword)}`);
+                    return updatedUrl;
+                } else {
+                    // Append the highlight parameter with the full search keyword
+                    return url + '?highlight=' + encodeURIComponent(keyword);
                 }
-                
-                // Append the highlight parameter with the full search keyword
-                return url + '?highlight=' + encodeURIComponent(keyword);
             }
 
             // Utility function to debounce input handling

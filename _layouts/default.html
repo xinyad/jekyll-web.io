@@ -97,7 +97,8 @@
     function highlightText(node, keyword) {
         console.log("Starting highlightText function with keyword:", keyword);
 
-        const regex = new RegExp(`\\b(${keyword})\\b`, 'gi'); // Word-boundary for whole words
+        // Use flexible regex to match both partial and complete words
+        const regex = new RegExp(`(${keyword})`, 'gi'); // Case-insensitive, flexible matching
         const walker = document.createTreeWalker(node, NodeFilter.SHOW_TEXT, null, false);
         let textNode;
         const nodesToHighlight = [];
@@ -151,6 +152,7 @@
         });
     };
 </script>
+
 
 
     

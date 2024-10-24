@@ -106,7 +106,7 @@
         // Collect all text nodes before modifying the DOM
         while (textNode = walker.nextNode()) {
             const parent = textNode.parentNode;
-            if (parent && !['SCRIPT', 'STYLE', 'SPAN'].includes(parent.tagName)) {
+            if (parent && !['SCRIPT', 'STYLE'].includes(parent.tagName)) {
                 if (regex.test(textNode.nodeValue)) {
                     nodesToHighlight.push(textNode);
                 }

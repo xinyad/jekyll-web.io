@@ -255,7 +255,7 @@
                             const searchResults = searcher.search(store, searchKeyword);
                             render(searchResults);
                         }
-                    }, 300)); // Debounce for 300ms
+                    }, 100)); // Debounce for 300ms
                 }
 
                 function render(results) {

@@ -215,12 +215,14 @@ p.post-meta {font-size: 80%; color: #777;}
     border-left: 1px solid #dedede;
     max-height: 200px; /* Adjust height for 10 items (depends on item height) */
     overflow-y: auto; /* Enable vertical scrolling */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle shadow for better visibility */
 }
 
 ul#results-container a {
     background-color: transparent;
     display: block; /* Ensure links take the full width */
     padding: 5px; /* Add padding for easier clicking */
+    border-radius: 4px; /* Add small rounding to individual items */
 }
 
 ul#results-container a:hover {
@@ -242,6 +244,7 @@ ul#results-container a:hover {
     margin-top: 10px;
     vertical-align: middle;
 }
+
 
 /* end search */
 
